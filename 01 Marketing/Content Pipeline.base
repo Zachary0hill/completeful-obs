@@ -1,0 +1,87 @@
+filters:
+  or:
+    - file.inFolder("01 Marketing/Content Month")
+    - file.inFolder("01 Marketing/Content Ideas")
+properties:
+  note.Status:
+    displayName: Stage
+  note.Pillar:
+    displayName: Pillar
+  note.Platform:
+    displayName: Channel
+  note.category:
+    displayName: Format / Type
+  note.publish_date:
+    displayName: Publish date
+  file.name:
+    displayName: Title
+views:
+  - type: table
+    name: Pipeline (all stages)
+    order:
+      - file.name
+      - Status
+      - Pillar
+      - Platform
+      - category
+      - publish_date
+    sort:
+      - property: Status
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 583
+  - type: table
+    name: Needs work (Idea + Drafting)
+    filters:
+      or:
+        - note.Status == "Idea"
+        - note.Status == "Drafting"
+    order:
+      - file.name
+      - Status
+      - Pillar
+      - Platform
+      - category
+    sort:
+      - property: Status
+        direction: ASC
+  - type: table
+    name: Ready to schedule
+    filters:
+      or:
+        - note.Status == "Planned"
+        - note.Status == "Scheduled"
+    order:
+      - file.name
+      - Status
+      - publish_date
+      - Platform
+    sort:
+      - property: publish_date
+        direction: ASC
+  - type: table
+    name: By pillar
+    order:
+      - Pillar
+      - file.name
+      - Status
+      - Platform
+    sort:
+      - property: Pillar
+        direction: ASC
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: Published
+    filters:
+      and:
+        - note.Status == "Published"
+    order:
+      - file.name
+      - Platform
+      - publish_date
+    sort:
+      - property: publish_date
+        direction: DESC

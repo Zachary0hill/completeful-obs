@@ -1,0 +1,191 @@
+{
+  "release": {
+    "channel": "stable"
+  },
+  "sharedFolders": [
+    {
+      "path": "01 Marketing",
+      "guid": "adb6d488-b047-400a-bad2-560d78dbdc9d",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "00 Brand",
+      "guid": "8349e7ca-e362-4df0-8dc7-95b22198f0a0",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "02 App & Product/Catalog",
+      "guid": "960e8a90-9f5c-4bcc-914d-64761ab750ac",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "02 App & Product",
+      "guid": "bccc5a0f-4d86-437e-a3d1-e3f0f9f7bd4e",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "03 Help Center",
+      "guid": "e3a0b526-7355-409e-80b4-149b4194efe9",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "04 Tutorials",
+      "guid": "9d8a7147-8fe6-4627-988d-3c4a35ac6884",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "05 Production",
+      "guid": "14197735-f38d-4616-8275-76f98d060f4a",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "06 Website",
+      "guid": "1a9f00bf-d2e2-451d-b89f-2705ed9a152d",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "07 Meetings",
+      "guid": "03eff8c3-e636-4052-9acc-b3ea75f815aa",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "08 Reference",
+      "guid": "90327087-fe25-47dc-8fd7-a94cffdb923c",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "10 Maps",
+      "guid": "828d02b8-02e6-43cf-84c7-9be1e4069de3",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "11 Ai Agents & Automations",
+      "guid": "e80a219f-34fe-4110-9fa8-ffcc2b2ca8d8",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "99 Assets",
+      "guid": "a3200dc7-839e-4aca-892c-ad80ed7f1fdc",
+      "relay": "162f3a47-e054-4fe6-8395-686dc286bfdb",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "endpoints": {},
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "enableVerifyUploads": false,
+  "enableAutomaticDiffResolution": true,
+  "enableDiscordLogin": false,
+  "enableSelfManageHosts": true,
+  "enableToasts": true,
+  "enablePresenceAvatars": true,
+  "enableLiveEmbeds": true,
+  "enablePreviewViewHooks": true,
+  "enableMetadataViewHooks": true,
+  "enableKanbanView": true,
+  "debugging": false,
+  "login": {
+    "provider": "github"
+  },
+  "enableSyncMenu": true,
+  "enableAttachmentSync": true,
+  "enableDocumentServer": true,
+  "enableMicrosoftLogin": true,
+  "enableGitHubLogin": true,
+  "enableOIDCLogin": true
+}

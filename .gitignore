@@ -1,0 +1,11 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Obsidian per-device and transient state
+.obsidian/workspace*.json
+.obsidian/cache/
+.trash/
+
+# May contain authentication data; keep settings local to each device
+.obsidian/plugins/obsidian-git/data.json
