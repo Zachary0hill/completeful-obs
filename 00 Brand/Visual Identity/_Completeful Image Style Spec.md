@@ -2,6 +2,8 @@
 title: "_Completeful Image Style Spec"
 type: brand-guideline
 canonical: true
+status: canonical
+updated: 2026-09-22
 tags:
   - brand
   - brand/visual
@@ -10,62 +12,67 @@ tags:
   - design
 ---
 
-# Completeful — Image Style Spec
+# Completeful Image Style Spec
 
-Single source of truth for AI image and infographic generation. This is the visual twin of the master brand prompt: paste the style block into any image model (nano-banana, fal, Photoroom prompts, Canva briefs) or feed it to an automation that builds image prompts. When the visual system changes, change it here.
+Single source of truth for AI image and infographic generation. Visual twin of the master brand prompt. Paste the style block into any image model (nano-banana, fal, Photoroom prompts, Canva briefs) or feed it to an automation that builds image prompts.
 
-> [!warning] Palette divergence to resolve
-> Two palettes exist in the vault. The **content-design system** below (Navy / Teal / orange-gold, Bebas Neue) is authoritative for social content, carousels, and infographics — it is the one with full per-format layout specs. A separate imported **web theme** uses a pink `#FF2D7E` to orange `#FF6E47` gradient on dark ink `#0F1929`. Decide which is current for social before scaling. This spec uses the content-design system; swap the accent hexes here if the pink/orange theme wins.
+> [!success] Palette resolved 2026-09-22
+> The Brand Kit v1.0 (built from production tokens) is the only current system. Navy and teal and the imported `#FF2D7E` theme are retired. See [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]] and [[00 Brand/_Archive/Legacy Visual Identity (Deprecated)|Legacy archive]].
 
 ## Core palette
 
-- **Navy** `#1B2A4A` — primary brand background, dark base, large text on light
-- **Deep Charcoal** `#111827` — premium social card / video background
-- **Elevated Surface** `#1E2D40` — card surface on charcoal
-- **Teal** `#1ABC9C` — primary accent: dividers, icons, highlight bars, CTAs
-- **Accent Blue** `#3A7BD5` — links, secondary actions, data bars
-- **Orange-Gold gradient** `#F5A623 → #E85D04` at 135° — reserved for ONE stat callout or hook accent per image, never body text or logo
-- **White** `#FFFFFF` / **Light Gray** `#E8ECF0` — text on dark
-- Composition ratio: Navy/dark 50-60%, white/space 20-25%, Teal 10-15%, Accent Blue 5-8%, orange-gold 3-5%
+- **Completeful Pink** `#ED128C`: primary accent. Dividers, icons, highlights, key words
+- **Signature gradient** `#FF2B92 to #FF8433` at 135deg: ONE element per image. Hook word, stat, or CTA. Never body text, never full background
+- **Orange** `#FF6B35`: small accent only. Never text
+- **Navy** `#34424E`: secondary structure, dark text on light
+- **Dark background** `#0A0A0A` / Ink `#111827`, card `#111111`
+- **Light background** white or `#F9FAFB`, pastel washes: lavender `#F3F0FF`, peach `#FFF4F0`, mint `#F0FFF7`, coral `#FFE8E8`
+- **Text** white `#FFFFFF` / `#E8E8E8` on dark. `#111111` / `#444444` on light
+- Composition: dark or white base 60 to 70%, whitespace 20%, pink 5 to 10%, gradient 3 to 5%
 
-## Typography feel (for on-image text)
+## Typography feel (on-image text)
 
-- **Headlines / hooks / stat callouts:** Bebas Neue style — bold, condensed, all-caps display. Energy through size, color, tracking.
-- **Subheads / labels / CTA:** Montserrat style — geometric sans, Bold/ExtraBold.
-- **Body / captions:** Inter style — clean, highly legible, Regular/Medium.
-- Never thin or light weights. Never script or serif.
+- **Headlines, hooks, stat callouts:** Owners style. Bold wide geometric grotesque, all caps, tight tracking
+- **Labels, CTA:** Owners Bold style, uppercase, 1px tracking
+- **Body, captions:** Inter style. Clean, legible, Regular or Medium
+- Never thin or light weights. Never script, serif, or condensed display faces
 
 ## Per-format layout
 
-- **Infographic / Carousel (1:1 square, 1080px):** Deep Charcoal or Navy background. One large Bebas-style all-caps headline (the hook). One highlighted stat on the orange-gold gradient. Thin teal divider, minimal flat-line icons, white/light-gray text, 80px margins, uncluttered, high contrast. Logo bottom-right, white reversed, if shown.
-- **Reel / TikTok cover (9:16 vertical, 1080x1920):** Dark background. Big all-caps hook text upper-middle, optionally on a semi-transparent dark pill (#111827 at 70%). Text safe zones: 96px sides, 160px top, 300px bottom. Icon-only logo lower corner.
-- **Product Showcase:** Photorealistic flat-lay or lifestyle. Warm soft daylight 5000-5500K. Clean brand-aligned background (off-white, navy, charcoal). Product fills 70-85%, leave padding for text. Subtle Navy/Teal presence. 2000px+.
-- **Behind the Scenes:** Photorealistic modern US fulfillment/manufacturing facility. Warm authentic light, real-feeling people and equipment, optimistic and trustworthy. Leave clean space for overlay.
+- **Infographic / Carousel (1:1, 1080px):** `#0A0A0A` background. One large all-caps headline, one word in the pink to orange gradient. One highlighted stat. Thin pink divider. Pink line icons. White and light gray text. 80px margins. Uncluttered, high contrast. White logo bottom right if shown
+- **Reel / TikTok cover (9:16, 1080x1920):** Dark background or dark photo with scrim. Big all-caps hook upper middle, optional `#0A0A0A` pill at 70%. Safe zones: 96px sides, 160px top, 300px bottom. Emblem lower corner
+- **Product Showcase:** Photorealistic flat lay or lifestyle. Natural light, neutral white balance. White, off-white or soft pastel background. Product fills 70 to 85%, padding for text. Pink appears as an accent inside the frame only. 2000px+
+- **Behind the Scenes:** Real Lafayette facility feel. Warehouse racking, machines mid-run (laser engraver, UV printer, embroidery head, DTG), personalized close ups with a legible name, packed boxes, hands in frame. Natural light. Leave clean space for overlay
 
 ## Photography rules
 
-Soft diffused light, no harsh flash. Warm-neutral temperature, never cool/clinical. Product is the hero, no distracting props, no competitor products. Authentic and relatable, not staged stock-photo. Brand colors echoed naturally where possible.
+- Real facility, real product, real hands. Operational credibility over stock polish
+- Natural light, neutral white balance, no heavy filters
+- Product is the hero. No distracting props, no competitor products
+- Pink as an accent inside the frame, never a color overlay across it
+- Text over photo: dark low detail area or a solid brand color band
 
-## The Image Style Block (paste into any image tool / automation)
+## The Image Style Block (paste into any image tool or automation)
 
 ```
 COMPLETEFUL VISUAL BRAND.
-Backgrounds: deep charcoal #111827 or navy #1B2A4A for social/infographic; off-white or warm light gray for product flat-lays.
-Text: white #FFFFFF and light gray #E8ECF0. Accent: teal #1ABC9C for dividers, icons, highlights. Secondary: accent blue #3A7BD5. Reserve an orange-to-gold gradient #F5A623 to #E85D04 for ONE stat or hook highlight only.
-Type feel: bold condensed all-caps display headlines (Bebas Neue style); clean geometric sans for support (Montserrat / Inter). Never thin, script, or serif.
-Mood: professional, confident, energetic, US-made print-on-demand for Etsy / TikTok Shop / Shopify sellers. Generous margins, high contrast, modern, uncluttered.
-Always: crisp legible correctly-spelled on-image text, balanced composition.
-Never: watermarks, fake logos, stock-photo cliche, clutter, emojis, neon/off-brand colors, busy backgrounds behind text.
+Backgrounds: near-black #0A0A0A or ink #111827 for social and infographics, cards #111111; white or #F9FAFB with soft pastel washes (lavender #F3F0FF, peach #FFF4F0, mint #F0FFF7) for product and light layouts.
+Accent: vivid pink #ED128C for dividers, icons, highlights. Signature pink-to-orange gradient #FF2B92 to #FF8433 at 135 degrees on ONE element only (a hook word, a stat, or the CTA). Orange #FF6B35 as a tiny accent only. Navy #34424E for secondary structure on light.
+Text: white #FFFFFF and #E8E8E8 on dark, #111111 and #444444 on light.
+Type feel: bold wide geometric grotesque headlines in ALL CAPS with tight tracking (Owners style); clean sans for support (Inter). Never thin, script, serif, or condensed.
+Mood: direct, operational, confident. US-made print on demand and 3PL for Etsy, TikTok Shop, Shopify sellers. Real warehouse, real product, natural light, neutral white balance. Generous margins, high contrast, rounded 24px cards, modern, uncluttered.
+Always: crisp legible correctly spelled on-image text, balanced composition, brand name spelled Completeful.
+Never: watermarks, fake logos, stock-photo cliche, clutter, emojis, teal, navy-and-teal palettes, neon off-brand colors, pink color overlays across photos, busy backgrounds behind text.
 ```
 
-## Usage Notes
+## Usage notes
 
-- The Image Generation n8n workflow's art-director step builds each prompt from this system plus the piece's hook, proof point, and format.
-- For true infographics with locked layout, type, and logo, use a Canva brand template autofill instead of raw image generation (stronger and more consistent than any model).
-- Update the palette here if the pink/orange web theme is adopted for social.
+- The Image Generation n8n workflow's art director step builds each prompt from this system plus the piece's hook, proof point and format
+- Locked layout infographics: use a Canva brand template autofill instead of raw image generation
+- Canva brand kit still needs updating to this palette and type stack. Open item in [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]]
 
 ## Related
-
+- [[00 Brand/Visual Identity/_Completeful Brand System|★ Completeful Brand System]]
 - [[00 Brand/Visual Identity/Color Palette|Color Palette]]
 - [[00 Brand/Visual Identity/Typography|Typography]]
 - [[00 Brand/Visual Identity/Templates & Dimensions|Templates & Dimensions]]

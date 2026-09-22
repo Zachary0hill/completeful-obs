@@ -47,7 +47,7 @@ This document covers every tool in active use across Completeful's marketing, co
 
 ### Canva Connect API
 **Role:** Programmatic graphic generation for carousels, infographics, and branded social assets.
-**Usage:** The Formatter agent calls the Canva Connect API to generate on-brand carousel slides and static graphics using approved Canva templates. Templates are locked to brand colors (Navy #1B2A4A, Teal #1ABC9C, Accent Blue #3A7BD5) and approved typefaces (Inter, Montserrat, Bebas Neue).
+**Usage:** The Formatter agent calls the Canva Connect API to generate on-brand carousel slides and static graphics using approved Canva templates. Templates are locked to brand colors (Pink #ED128C, gradient #FF2B92 to #FF8433, Navy #34424E) and approved typefaces (Owners or Archivo for headlines, Inter for body). The Canva brand kit still lists Gotham and SF Pro Display and needs updating.
 **Notes:** Templates are owned in the Completeful Canva account. Manual Canva is not used for pipeline content — only for one-off design work.
 
 ### Photoroom

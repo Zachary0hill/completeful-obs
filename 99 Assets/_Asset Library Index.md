@@ -18,10 +18,11 @@ This is the master index of all brand and content assets for Completeful. Use th
 
 | Asset Type | Location | Vault Reference |
 |---|---|---|
+| Brand Kit v1.0 (logos, colors, tokens, icons, guidelines) | Vault `99 Assets/Brand Kit/` + Drive `Media Vault/02 Brand Assets/Completeful/Completeful_Brand_Kit/` | [[Brand Kit Files]] |
 | Logos & brand mark files | [Logos Drive](https://drive.google.com/drive/folders/1VDTGZLhvCBgocyynfCfZgIwrvmeuxsFM) | [[Logos & Brand Files]] |
 | Clothing product mockups | [Clothing Mockups Drive](https://drive.google.com/drive/folders/1F56li7zjuPpfA0u6oHkKmkYXH1MjWTSi) | [[Mockup & Content Library]] |
 | Bulk content exports (social, video, graphics) | [Bulk Content Drive](https://drive.google.com/drive/folders/1QHup-aFkeONCFBIq8naOAPGkRDkXTXzf) | [[Mockup & Content Library]] |
-| Brand color codes and type specs | Vault only | [[10 Maps/Topic - Visual Identity MOC|Visual Identity]] |
+| Brand color codes and type specs | Vault `99 Assets/Brand Kit/Colors/` + `Tokens/` | [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]] |
 | Canva templates | Completeful Canva account | See [[Tools & Tech Stack]] — Canva Connect API |
 
 ---
@@ -58,11 +59,11 @@ Content in this folder has passed QC review and is approved for use unless a sub
 
 ## On-Brand Usage Reminders
 
-- Brand colors: Navy #1B2A4A, Teal #1ABC9C, Accent Blue #3A7BD5
-- Typography: Inter (body), Montserrat (subheadings), Bebas Neue (display/headlines)
+- Brand colors: Pink #ED128C, gradient #FF2B92 to #FF8433 (135deg), Orange #FF6B35 (accent), Navy #34424E
+- Typography: Owners (headlines, buttons, fallback Archivo), Inter (body)
 - Tagline: "You Design & Sell It, We Create & Fulfill It."
 - No emojis or dashes in finalized social copy
-- Full brand guidelines are in [[10 Maps/Topic - Visual Identity MOC|Visual Identity]]
+- Full brand guidelines: [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]]
 
 ---
 

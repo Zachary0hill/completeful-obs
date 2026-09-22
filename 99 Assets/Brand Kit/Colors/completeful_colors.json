@@ -1,0 +1,515 @@
+{
+  "brand": "Completeful",
+  "generated": "2026-09-08",
+  "source": "tailwind.config.js + src/app/globals.css, completeful repo",
+  "core": [
+    {
+      "name": "Completeful Pink",
+      "hex": "#ED128C",
+      "rgb": [
+        237,
+        18,
+        140
+      ],
+      "cmyk": [
+        0,
+        92,
+        41,
+        7
+      ],
+      "usage": "Primary brand color. Logo, primary buttons, links, active states.",
+      "contrast_on_white": 4.15,
+      "contrast_on_black": 4.78
+    },
+    {
+      "name": "Pink Deep",
+      "hex": "#C4106A",
+      "rgb": [
+        196,
+        16,
+        106
+      ],
+      "cmyk": [
+        0,
+        92,
+        46,
+        23
+      ],
+      "usage": "Hover state for primary. Required for pink text under 18px on white.",
+      "contrast_on_white": 5.79,
+      "contrast_on_black": 3.42
+    },
+    {
+      "name": "Completeful Orange",
+      "hex": "#FF6B35",
+      "rgb": [
+        255,
+        107,
+        53
+      ],
+      "cmyk": [
+        0,
+        58,
+        79,
+        0
+      ],
+      "usage": "Accent only. Gradient end point, highlights, badges.",
+      "contrast_on_white": 2.84,
+      "contrast_on_black": 6.98
+    },
+    {
+      "name": "Completeful Navy",
+      "hex": "#34424E",
+      "rgb": [
+        52,
+        66,
+        78
+      ],
+      "cmyk": [
+        33,
+        15,
+        0,
+        69
+      ],
+      "usage": "Secondary UI, outline buttons, dark text on light surfaces.",
+      "contrast_on_white": 10.32,
+      "contrast_on_black": 1.92
+    },
+    {
+      "name": "Completeful Blush",
+      "hex": "#E2C2C4",
+      "rgb": [
+        226,
+        194,
+        196
+      ],
+      "cmyk": [
+        0,
+        14,
+        13,
+        11
+      ],
+      "usage": "Soft neutral. Dividers, muted fills, packaging tissue.",
+      "contrast_on_white": 1.65,
+      "contrast_on_black": 12.02
+    },
+    {
+      "name": "Completeful White",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "cmyk": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "usage": "Primary surface. Logo knockout.",
+      "contrast_on_white": 1.0,
+      "contrast_on_black": 19.8
+    }
+  ],
+  "gradient": [
+    {
+      "name": "Gradient Start",
+      "hex": "#FF2B92",
+      "rgb": [
+        255,
+        43,
+        146
+      ],
+      "cmyk": [
+        0,
+        83,
+        43,
+        0
+      ],
+      "usage": "Pink to orange gradient, 135deg, 0%"
+    },
+    {
+      "name": "Gradient End",
+      "hex": "#FF8433",
+      "rgb": [
+        255,
+        132,
+        51
+      ],
+      "cmyk": [
+        0,
+        48,
+        80,
+        0
+      ],
+      "usage": "Pink to orange gradient, 135deg, 100%"
+    },
+    {
+      "name": "Gradient Hover Start",
+      "hex": "#E00072",
+      "rgb": [
+        224,
+        0,
+        114
+      ],
+      "cmyk": [
+        0,
+        100,
+        49,
+        12
+      ],
+      "usage": "Hover gradient 0%"
+    },
+    {
+      "name": "Gradient Hover End",
+      "hex": "#D63501",
+      "rgb": [
+        214,
+        53,
+        1
+      ],
+      "cmyk": [
+        0,
+        75,
+        100,
+        16
+      ],
+      "usage": "Hover gradient 100%"
+    }
+  ],
+  "pink_scale": {
+    "50": {
+      "hex": "#FDF2F8",
+      "rgb": [
+        253,
+        242,
+        248
+      ]
+    },
+    "100": {
+      "hex": "#FCE7F3",
+      "rgb": [
+        252,
+        231,
+        243
+      ]
+    },
+    "200": {
+      "hex": "#FBCFE8",
+      "rgb": [
+        251,
+        207,
+        232
+      ]
+    },
+    "300": {
+      "hex": "#F9A8D4",
+      "rgb": [
+        249,
+        168,
+        212
+      ]
+    },
+    "400": {
+      "hex": "#F472B6",
+      "rgb": [
+        244,
+        114,
+        182
+      ]
+    },
+    "500": {
+      "hex": "#ED128C",
+      "rgb": [
+        237,
+        18,
+        140
+      ]
+    },
+    "600": {
+      "hex": "#DB2777",
+      "rgb": [
+        219,
+        39,
+        119
+      ]
+    },
+    "700": {
+      "hex": "#BE185D",
+      "rgb": [
+        190,
+        24,
+        93
+      ]
+    },
+    "800": {
+      "hex": "#9D174D",
+      "rgb": [
+        157,
+        23,
+        77
+      ]
+    },
+    "900": {
+      "hex": "#831843",
+      "rgb": [
+        131,
+        24,
+        67
+      ]
+    }
+  },
+  "neutral_scale": {
+    "50": {
+      "hex": "#F9FAFB",
+      "rgb": [
+        249,
+        250,
+        251
+      ]
+    },
+    "100": {
+      "hex": "#F3F4F6",
+      "rgb": [
+        243,
+        244,
+        246
+      ]
+    },
+    "200": {
+      "hex": "#E5E7EB",
+      "rgb": [
+        229,
+        231,
+        235
+      ]
+    },
+    "300": {
+      "hex": "#D1D5DB",
+      "rgb": [
+        209,
+        213,
+        219
+      ]
+    },
+    "400": {
+      "hex": "#9CA3AF",
+      "rgb": [
+        156,
+        163,
+        175
+      ]
+    },
+    "500": {
+      "hex": "#6B7280",
+      "rgb": [
+        107,
+        114,
+        128
+      ]
+    },
+    "600": {
+      "hex": "#4B5563",
+      "rgb": [
+        75,
+        85,
+        99
+      ]
+    },
+    "700": {
+      "hex": "#374151",
+      "rgb": [
+        55,
+        65,
+        81
+      ]
+    },
+    "800": {
+      "hex": "#1F2937",
+      "rgb": [
+        31,
+        41,
+        55
+      ]
+    },
+    "900": {
+      "hex": "#111827",
+      "rgb": [
+        17,
+        24,
+        39
+      ]
+    }
+  },
+  "pastel": [
+    {
+      "name": "Lavender",
+      "hex": "#F3F0FF",
+      "rgb": [
+        243,
+        240,
+        255
+      ]
+    },
+    {
+      "name": "Peach",
+      "hex": "#FFF4F0",
+      "rgb": [
+        255,
+        244,
+        240
+      ]
+    },
+    {
+      "name": "Mint",
+      "hex": "#F0FFF7",
+      "rgb": [
+        240,
+        255,
+        247
+      ]
+    },
+    {
+      "name": "Coral",
+      "hex": "#FFE8E8",
+      "rgb": [
+        255,
+        232,
+        232
+      ]
+    }
+  ],
+  "ui_dark": [
+    {
+      "name": "Background",
+      "hex": "#0A0A0A",
+      "rgb": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Foreground",
+      "hex": "#E8E8E8",
+      "rgb": [
+        232,
+        232,
+        232
+      ]
+    },
+    {
+      "name": "Card",
+      "hex": "#111111",
+      "rgb": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "Border",
+      "hex": "#262626",
+      "rgb": [
+        38,
+        38,
+        38
+      ]
+    },
+    {
+      "name": "Muted",
+      "hex": "#202020",
+      "rgb": [
+        32,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "Muted Foreground",
+      "hex": "#A3A3A3",
+      "rgb": [
+        163,
+        163,
+        163
+      ]
+    }
+  ],
+  "ui_light": [
+    {
+      "name": "Background",
+      "hex": "#F9FAFB",
+      "rgb": [
+        249,
+        250,
+        251
+      ]
+    },
+    {
+      "name": "Foreground",
+      "hex": "#111827",
+      "rgb": [
+        17,
+        24,
+        39
+      ]
+    },
+    {
+      "name": "Card",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "Border",
+      "hex": "#E5E7EB",
+      "rgb": [
+        229,
+        231,
+        235
+      ]
+    },
+    {
+      "name": "Muted",
+      "hex": "#F3F4F6",
+      "rgb": [
+        243,
+        244,
+        246
+      ]
+    },
+    {
+      "name": "Muted Foreground",
+      "hex": "#4B5563",
+      "rgb": [
+        75,
+        85,
+        99
+      ]
+    }
+  ],
+  "text": [
+    {
+      "name": "Headline",
+      "hex": "#111111",
+      "rgb": [
+        17,
+        17,
+        17
+      ]
+    },
+    {
+      "name": "Body",
+      "hex": "#444444",
+      "rgb": [
+        68,
+        68,
+        68
+      ]
+    }
+  ]
+}

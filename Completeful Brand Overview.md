@@ -27,9 +27,10 @@ The platform runs in-house fulfillment with a 500+ product catalog (also referen
 - CTAs typically direct to completeful.com or the Completeful app.
 
 ## Brand
-- Primary colors: Navy #1B2A4A, Teal #1ABC9C, Accent Blue #3A7BD5.
-- Also uses dark backgrounds with orange-gold gradients and Bebas Neue typography in some assets.
-- Typography: Inter / Montserrat.
+- Primary colors: Pink #ED128C (hover #C4106A), Orange #FF6B35 accent, Navy #34424E.
+- Signature gradient: 135deg #FF2B92 to #FF8433, one element per view.
+- Typography: Owners (headlines, buttons, fallback Archivo) + Inter (body).
+- Full system and files: [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]].
 - Primary tagline: "You Design & Sell It, We Create & Fulfill It."
 - Content tone: coaching/empowering voice for seller-facing content; no emojis or dashes in finalized social copy.
 

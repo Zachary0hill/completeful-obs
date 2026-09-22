@@ -1,0 +1,56 @@
+/* Completeful component specs, lifted from the production build.
+   Requires webfont_import.css and completeful_colors.css. */
+
+.cf-btn-primary {
+  font-family: var(--cf-font-heading); font-weight: 700; font-size: 16px;
+  padding: 14px 24px; text-transform: uppercase; letter-spacing: 1px;
+  border: none; border-radius: 8px; color: #FFFFFF; background: #ED128C;
+  box-shadow: 0 4px 15px rgba(237, 18, 140, .25);
+  transition: all .3s ease-out;
+}
+.cf-btn-primary:hover { background: #C4106A; box-shadow: 0 8px 25px rgba(237,18,140,.35); transform: translateY(-2px); }
+.cf-btn-primary:active { transform: translateY(0) scale(.98); box-shadow: 0 2px 10px rgba(237,18,140,.25); }
+
+.cf-btn-gradient {
+  font-family: var(--cf-font-heading); font-weight: 700; font-size: 16px;
+  padding: 14px 24px; text-transform: uppercase; letter-spacing: 1px;
+  border: none; border-radius: 8px; color: #FFFFFF;
+  background: linear-gradient(135deg, #FF2B92 0%, #FF8433 100%);
+  box-shadow: 0 4px 15px rgba(255,43,146,.25);
+  transition: all .3s ease-out;
+}
+.cf-btn-gradient:hover { background: linear-gradient(135deg, #E00072 0%, #D63501 100%); box-shadow: 0 8px 25px rgba(255,43,146,.4); transform: translateY(-2px) scale(1.02); }
+
+.cf-btn-secondary {
+  font-family: var(--cf-font-heading); font-weight: 700; font-size: 16px;
+  padding: 12px 22px; text-transform: uppercase; letter-spacing: 1px;
+  border: 2px solid #ED128C; border-radius: 8px; color: #ED128C; background: transparent;
+  transition: all .3s ease-out;
+}
+.cf-btn-secondary:hover { background: #ED128C; color: #FFFFFF; box-shadow: 0 6px 20px rgba(237,18,140,.25); transform: translateY(-2px); }
+
+.cf-btn-outline {
+  font-family: var(--cf-font-heading); font-weight: 700; font-size: 16px;
+  padding: 12px 22px; text-transform: uppercase; letter-spacing: 1px;
+  border: 2px solid #34424E; border-radius: 8px; color: #34424E; background: transparent;
+  transition: all .3s ease-out;
+}
+.cf-btn-outline:hover { background: #34424E; color: #FFFFFF; box-shadow: 0 6px 20px rgba(52,66,78,.25); transform: translateY(-2px); }
+
+.cf-card {
+  background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 1.5rem; padding: 1.5rem;
+  transition: all .3s ease-out;
+}
+.cf-card:hover { border-color: rgba(237,18,140,.2); box-shadow: 0 8px 30px rgba(237,18,140,.08); transform: translateY(-2px); }
+
+.cf-gradient-text {
+  background: linear-gradient(135deg, #FF2B92 0%, #FF8433 100%);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+
+/* Mobile buttons drop to 14px / 12px 20px / .8px tracking below 768px */
+@media (max-width: 768px) {
+  .cf-btn-primary, .cf-btn-gradient, .cf-btn-secondary, .cf-btn-outline {
+    font-size: 14px; padding: 12px 20px; letter-spacing: .8px;
+  }
+}

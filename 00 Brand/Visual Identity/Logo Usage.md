@@ -1,6 +1,9 @@
 ---
 title: Logo Usage
 type: brand-guideline
+status: canonical
+source: Completeful Brand Kit v1.0 (Sept 2026)
+updated: 2026-09-22
 tags:
   - brand
   - brand/visual
@@ -8,96 +11,95 @@ tags:
   - mockups
 ---
 
-## Overview
+# Logo Usage
 
-The Completeful logo is the primary visual anchor of the brand. Consistent, disciplined use of the logo builds recognition and trust with the POD seller audience. Every placement should reinforce that Completeful is a professional, US-based manufacturing and fulfillment partner, not a generic dropshipper.
+> [!important] Source of truth
+> Files live in [[99 Assets/Brand Kit Files|Brand Kit Files]] inside this vault. Master copies: Drive `Media Vault/02 Brand Assets/Completeful/Completeful_Brand_Kit/01_Logos/`.
 
-Logo assets are hosted in the official Logos Drive:
-https://drive.google.com/drive/folders/1VDTGZLhvCBgocyynfCfZgIwrvmeuxsFM
+The mark is a circular arrow closing a loop around a checkmark: an order going out and coming back complete.
 
----
+## Primary lockup
 
-## Logo Variants
+Gradient horizontal lockup. Default on white and light neutrals.
 
-**Primary Logo (Horizontal Lockup)**
-The wordmark accompanied by the brand icon/mark, arranged horizontally. This is the default version for most use cases: website headers, email signatures, presentation covers, and printed collateral.
+![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_gradient_800w.png|420]]
 
-**Stacked Lockup**
-Icon centered above the wordmark. Use when horizontal space is constrained, such as square social profile images or square print panels. Minimum use at 120px wide.
+## Variants
 
-**Icon / Mark Only**
-The standalone brandmark without the wordmark. Reserved for contexts where the brand is already established in surrounding copy, such as app icons, favicon, watermarks on product mockups, and social media profile photos.
+| Variant | Preview | Use on | File |
+|---|---|---|---|
+| Gradient lockup | ![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_gradient_800w.png\|200]] | White, light neutrals | `completeful_horizontal_vector_gradient.svg` |
+| Solid pink | ![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_pink_800w.png\|200]] | One color print, tape, email signature | `completeful_horizontal_vector_pink.svg` |
+| Solid black | ![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_black_800w.png\|200]] | Documents, low color print | `completeful_horizontal_vector_black.svg` |
+| Navy | ![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_navy_800w.png\|200]] | Documents on light | `completeful_horizontal_navy_800w.png` |
+| White knockout | ![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_white_800w.png\|200]] (visible in dark theme) | Black, navy, pink, dark photo | `completeful_horizontal_vector_white.svg` |
 
-**Wordmark Only**
-The logotype without the icon. Acceptable for in-line editorial use, email signatures as plain-text fallback contexts, and co-branded layouts where the icon would visually conflict.
+## Emblem
 
-**Reversed / White Version**
-Full white knockouts of both the primary lockup and the icon-only mark. Use exclusively on dark backgrounds (Navy #1B2A4A or other dark brand backgrounds).
+Avatars, app icons, favicons, packing tape, small embroidery, any square placement.
 
----
+| Gradient | Pink | Black | White |
+|---|---|---|---|
+| ![[99 Assets/Brand Kit/Logos/PNG/completeful_emblem_gradient_512w.png\|96]] | ![[99 Assets/Brand Kit/Logos/PNG/completeful_emblem_pink_512w.png\|96]] | ![[99 Assets/Brand Kit/Logos/PNG/completeful_emblem_black_512w.png\|96]] | ![[99 Assets/Brand Kit/Logos/PNG/completeful_emblem_white_512w.png\|96]] |
 
-## Clear Space
+- Never hand-place the wordmark next to the emblem. Use the lockup file.
+- No stacked or vertical lockup exists yet. Open item.
 
-Maintain clear space equal to the cap-height of the letter "C" in the wordmark on all four sides of the logo. No other graphic elements, text, photography, or decorative patterns should intrude on this buffer zone. On the icon-only mark, clear space equals the full height of the mark on each side.
+## Which file to use
 
----
-
-## Minimum Size
-
-| Variant | Digital Minimum | Print Minimum |
-|---|---|---|
-| Primary Horizontal | 160px wide | 1.25 in wide |
-| Stacked Lockup | 120px wide | 1.0 in wide |
-| Icon Only | 32px wide | 0.4 in wide |
-
-Below these thresholds the logo becomes illegible and must not be used.
-
----
-
-## Approved Backgrounds
-
-The logo renders correctly on the following backgrounds:
-
-- **Navy #1B2A4A** — use white/reversed logo
-- **White #FFFFFF** — use full-color or dark logo
-- **Light neutral (off-white, light gray)** — use full-color or dark logo
-- **Dark photography** — use white/reversed logo with sufficient contrast; test legibility before finalizing
-- **Teal #1ABC9C** — use white/reversed logo only; do not place the full-color logo on teal as the accent color in the logo will conflict
-
-Avoid placing the logo over busy, patterned, or highly saturated photographic backgrounds. When photography is unavoidable, apply a semi-transparent dark scrim (Navy at 60% opacity minimum) behind the logo area.
-
----
-
-## Misuse: What Not to Do
-
-**Do not:**
-- Stretch or skew the logo in any direction
-- Rotate the logo
-- Apply drop shadows, glows, bevels, or gradients to the logo
-- Recolor the logo in any unapproved color (including orange, red, or random brand gradients)
-- Place the full-color logo on the Teal background
-- Use low-resolution logo files exported below minimum size
-- Combine the logo with competitor wordmarks in a lockup
-- Add tagline text directly to the logo file; keep the logo and tagline as separate elements
-- Recreate the logo in a different typeface or weight
-- Use an outdated logo version found outside the Logos Drive
-
----
-
-## File Format Reference
-
-| Use Case | Format |
+| Situation | File |
 |---|---|
-| Web / digital | SVG (preferred), PNG with transparent background |
-| Video overlays, mockups | PNG with transparent background |
-| Print, large format | PDF or EPS vector |
-| Social profile photos | PNG, square crop of icon or stacked lockup |
+| Printed, or wider than 800px | [[99 Assets/Brand Kit/Logos/Vector/completeful_horizontal_vector_gradient.svg\|completeful_horizontal_vector_gradient.svg]] |
+| Website header, light background (about 180px wide) | [[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_gradient_800w.png\|completeful_horizontal_gradient_800w.png]] |
+| Dark background | [[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_white_800w.png\|completeful_horizontal_white_800w.png]] |
+| One color print, tape, embroidery | [[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_pink_1500w.png\|completeful_horizontal_pink_1500w.png]] |
+| Avatar, app icon, square | [[99 Assets/Brand Kit/Logos/PNG/completeful_emblem_gradient_512w.png\|completeful_emblem_gradient_512w.png]] |
+| Email signature (cap 180px, PNG not SVG) | [[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_pink_400w.png\|completeful_horizontal_pink_400w.png]] |
+| Favicon, app icons | `99 Assets/Brand Kit/Logos/App_Icons/` |
+| Open graph, link previews | [[99 Assets/Brand Kit/Logos/Social/open_graph_1200x630.jpg\|open_graph_1200x630.jpg]] |
+| CSS recolor | `completeful_*_vector_currentcolor.svg` |
 
-Always source files from the official Logos Drive. Do not use logo screenshots or compressed social-media exports as source material.
+## Clear space
+
+Equal to the height of the emblem circle, all four sides. Nothing enters: no text, rules, photo edges, other logos.
+
+## Minimum size
+
+| Asset | Digital | Print |
+|---|---|---|
+| Horizontal lockup | 140px wide | 1.25in / 32mm |
+| Emblem alone | 24px | 0.35in / 9mm |
+| Emblem, embroidery | n/a | 0.75in / 19mm, single pink thread, no gradient |
+
+## Backgrounds
+
+- White, light neutrals: gradient or pink lockup
+- Black, navy, pink: white knockout
+- Photography: white knockout over a dark low detail area, or a solid brand color band behind it
+- Never the gradient logo on a colored background
+
+## Do
+
+- Use supplied files at supplied proportions
+- Scale from a corner
+- Switch to white knockout the moment contrast drops
+- Use SVG above 800px or for anything printed
+
+## Do not
+
+- Recolor, add strokes, shadows, bevels, glows
+- Stretch, condense, rotate, skew
+- Put the gradient lockup on colored or busy backgrounds
+- Rebuild the wordmark in another typeface
+- Box the logo in a shape not in the kit
+- Use emblem and wordmark at different tints
+
+## SVG provenance
+
+SVGs were vector traced from the highest resolution PNG masters (emblem 3000px, lockup 8000px) and visually verified. Production safe. Replace with the original AI or EPS master if found. Open item.
 
 ## Related
-- [[00 Brand/Visual Identity/Photography & Mockup Style|Photography & Mockup Style]]
+- [[00 Brand/Visual Identity/_Completeful Brand System|★ Completeful Brand System]]
+- [[99 Assets/Brand Kit Files|Brand Kit Files]]
 - [[00 Brand/Visual Identity/Color Palette|Color Palette]]
 - [[00 Brand/Visual Identity/Templates & Dimensions|Templates & Dimensions]]
-- [[00 Brand/Visual Identity/Typography|Typography]]
-- [[00 Brand/Visual Identity/Completeful Brand Theme (Light + Dark)|Completeful Brand Theme (Light + Dark)]]

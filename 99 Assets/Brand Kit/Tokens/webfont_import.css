@@ -1,0 +1,26 @@
+/* Completeful webfont setup
+   Drop this next to your CSS and adjust the url() paths to your asset folder.
+   Headings use Owners (licensed, see Owners/LICENSE_AND_SOURCE.md).
+   Archivo is the open fallback so headings never render as system sans. */
+
+/* Body: Inter */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("Inter/webfonts/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("Inter/webfonts/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("Inter/webfonts/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("Inter/webfonts/inter-latin-700-normal.woff2") format("woff2"); }
+
+/* Body alternate: Work Sans */
+@font-face { font-family: "Work Sans"; font-style: normal; font-weight: 400; font-display: swap; src: url("Work_Sans/webfonts/work-sans-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Work Sans"; font-style: normal; font-weight: 500; font-display: swap; src: url("Work_Sans/webfonts/work-sans-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Work Sans"; font-style: normal; font-weight: 600; font-display: swap; src: url("Work_Sans/webfonts/work-sans-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Work Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("Work_Sans/webfonts/work-sans-latin-700-normal.woff2") format("woff2"); }
+
+/* Heading fallback: Archivo */
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 700; font-display: swap; src: url("Archivo_Fallback/webfonts/archivo-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 800; font-display: swap; src: url("Archivo_Fallback/webfonts/archivo-latin-800-normal.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-style: normal; font-weight: 900; font-display: swap; src: url("Archivo_Fallback/webfonts/archivo-latin-900-normal.woff2") format("woff2"); }
+
+:root {
+  --cf-font-heading: "Owners", "Archivo", "Inter", system-ui, sans-serif;
+  --cf-font-body: "Inter", "Work Sans", system-ui, sans-serif;
+}

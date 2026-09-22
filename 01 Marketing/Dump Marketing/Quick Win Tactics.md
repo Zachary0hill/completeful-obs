@@ -64,7 +64,7 @@ Take one strong, standalone sentence from a published blog post. Post it as a st
 **Time to execute:** 30 to 45 minutes
 **Channels:** IG Carousel or Static, LinkedIn
 
-Use Canva or Photoroom to create a simple two-column comparison: overseas fulfillment vs. US-based fulfillment (or managed inventory vs. POD). Use Completeful's Navy and Teal brand colors. Keep the text tight, three to five comparison rows.
+Use Canva or Photoroom to create a simple two-column comparison: overseas fulfillment vs. US-based fulfillment (or managed inventory vs. POD). Use Completeful's pink #ED128C with white or near-black #0A0A0A. Keep the text tight, three to five comparison rows.
 
 **Why it works:** Comparison content is highly shareable and speaks directly to sellers who are actively evaluating their options. It does not require the reader to already know Completeful.
 

@@ -55,7 +55,7 @@ The vault is organized by numbered top-level folders so related material stays g
 | `08 Reference` | General reference material |
 | `10 Maps` | Maps of Content (MOCs) that link related notes by topic |
 | `11 Ai Agents & Automations` | n8n workflows, content automation, agent systems |
-| `99 Assets` | Shared assets and brand files |
+| `99 Assets` | Shared assets, brand files, and the Brand Kit (logos, colors, tokens, icons, guidelines) |
 | `_Templates` | Obsidian note templates |
 
 Start at `10 Maps/Completeful Vault Home.md` for a linked overview of the vault.

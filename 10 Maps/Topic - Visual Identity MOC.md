@@ -11,15 +11,15 @@ Every page tagged #visual-identity, across all areas.
 
 
 ## 00 Brand
+- [[00 Brand/Visual Identity/_Completeful Brand System|★ Completeful Brand System (source of truth)]]
 - [[00 Brand/Visual Identity/_Completeful Image Style Spec|★ Image Style Spec (canonical)]]
 - [[00 Brand/Visual Identity/Color Palette|Color Palette]]
-- [[00 Brand/Visual Identity/Completeful Brand Theme (Light + Dark)|Completeful Brand Theme (Light + Dark)]]
-- [[00 Brand/Visual Identity/Completeful Light + Charcoal Dark Theme|Completeful Light + Charcoal Dark Theme]]
-- [[00 Brand/Visual Identity/Completeful Light Mode Optimized Theme|Completeful Light Mode Optimized Theme]]
+- [[00 Brand/Visual Identity/Typography|Typography]]
 - [[00 Brand/Visual Identity/Logo Usage|Logo Usage]]
+- [[00 Brand/Visual Identity/Iconography|Iconography]]
+- [[00 Brand/Visual Identity/Design System & Components|Design System & Components]]
 - [[00 Brand/Visual Identity/Photography & Mockup Style|Photography & Mockup Style]]
 - [[00 Brand/Visual Identity/Templates & Dimensions|Templates & Dimensions]]
-- [[00 Brand/Visual Identity/Typography|Typography]]
 
 ## 01 Marketing
 - [[01 Marketing/Nano Banana Pro Mockup Prompts/Lifestyle Scene Mockup Prompt|Lifestyle Scene Mockup Prompt]]
@@ -56,6 +56,7 @@ Every page tagged #visual-identity, across all areas.
 - [[08 Reference/Skills/walkthrough-video-editor|walkthrough-video-editor]]
 
 ## 99 Assets
+- [[99 Assets/Brand Kit Files|Brand Kit Files]]
 - [[99 Assets/_Asset Library Index|Asset Library Index]]
 - [[99 Assets/Logos & Brand Files|Logos & Brand Files]]
 - [[99 Assets/Mockup & Content Library|Mockup & Content Library]]

@@ -79,7 +79,7 @@ These channels drive traffic to completeful.com and support seller acquisition a
 
 ## Notes for Internal Use
 
-When updating site pages, check that base cost data and product counts (currently 500-900+) are current. The catalog count changes as new products are added, so page copy referencing specific numbers should be reviewed quarterly. Brand colors Navy #1B2A4A, Teal #1ABC9C, and Accent Blue #3A7BD5 govern all site design elements.
+When updating site pages, check that base cost data and product counts (currently 500-900+) are current. The catalog count changes as new products are added, so page copy referencing specific numbers should be reviewed quarterly. Brand colors Pink #ED128C, the #FF2B92 to #FF8433 gradient, and Navy #34424E govern all site design elements. See [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]].
 
 ## Related
 - [[06 Website/Blog Strategy & SEO|Blog Strategy & SEO]]

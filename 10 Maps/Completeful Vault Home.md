@@ -12,6 +12,7 @@ Start here. This hub links the area maps; each area map links its pages, and top
 ## Content workflow
 - [[01 Marketing/Content Pipeline.base|Content Pipeline (Base)]] — board of every piece by stage, pillar, and channel
 - [[00 Brand/AI Context/_Completeful Master Brand Prompt|Master Brand Prompt]] — canonical AI context, paste before generating
+- [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]]: visual source of truth. Logos, colors, type, icons, tokens
 - [[_Templates/Content Idea|Template: Content Idea]] · [[_Templates/Draft - Post|Template: Draft / Post]]
 
 ## Areas

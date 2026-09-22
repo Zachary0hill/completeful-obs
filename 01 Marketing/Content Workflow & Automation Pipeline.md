@@ -64,7 +64,7 @@ Approved items are marked `Approved`. Revision requests return the card to the r
 
 ### Stage 5: Formatting, Production, and Publishing
 
-**Formatter Agent:** Takes approved text and invokes the Canva Connect API to generate platform-formatted graphics (carousels, thumbnails, branded statics). Confirms that outputs match brand specs (Navy #1B2A4A, Teal #1ABC9C, Accent Blue #3A7BD5; Inter / Montserrat / Bebas Neue).
+**Formatter Agent:** Takes approved text and invokes the Canva Connect API to generate platform-formatted graphics (carousels, thumbnails, branded statics). Confirms that outputs match brand specs (Pink #ED128C, gradient #FF2B92 to #FF8433, Navy #34424E; Owners or Archivo headlines, Inter body). Spec: [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]].
 
 For video content, the Formatter works with Remotion templates and ElevenLabs for voiceover. The Formatter outputs finished media files and links them back to the Notion card.
 

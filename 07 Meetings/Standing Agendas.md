@@ -98,7 +98,7 @@ These are the recurring meeting formats used across Completeful's marketing, con
 
 2. **Visual and mockup review** (10 min)
    - Review Photoroom and Nano Banana Pro mockup outputs
-   - Confirm Canva-generated carousel layouts match brand colors (Navy #1B2A4A, Teal #1ABC9C, Accent Blue #3A7BD5) and typography (Inter, Montserrat, Bebas Neue)
+   - Confirm Canva-generated carousel layouts match brand colors (Pink #ED128C, gradient #FF2B92 to #FF8433, Navy #34424E) and typography (Owners or Archivo headlines, Inter body)
    - Review any Remotion video outputs
 
 3. **Publishing queue confirmation** (10 min)

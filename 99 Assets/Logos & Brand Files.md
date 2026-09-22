@@ -1,6 +1,8 @@
 ---
 title: Logos & Brand Files
 type: reference
+status: canonical
+updated: 2026-09-22
 tags:
   - visual-identity
   - api
@@ -9,66 +11,57 @@ tags:
 
 # Logos & Brand Files
 
-## Drive Folder
+## Where the files are
 
-All official Completeful logo and brand mark files are stored here:
-[Logos & Brand Files — Google Drive](https://drive.google.com/drive/folders/1VDTGZLhvCBgocyynfCfZgIwrvmeuxsFM)
+| Location | What | Use for |
+|---|---|---|
+| Vault `99 Assets/Brand Kit/Logos/` | SVG set, web PNGs, app icons, open graph | Embeds, daily pulls, agents working in the vault |
+| Drive `Media Vault/02 Brand Assets/Completeful/Completeful_Brand_Kit/01_Logos/` | Every size, masters to 3000w | Large PNG exports, handoff to vendors |
+| [Logos Drive folder](https://drive.google.com/drive/folders/1VDTGZLhvCBgocyynfCfZgIwrvmeuxsFM) | Older logo uploads | Legacy reference. Prefer the Brand Kit |
 
----
+Full manifest: [[99 Assets/Brand Kit Files|Brand Kit Files]]. Usage rules: [[00 Brand/Visual Identity/Logo Usage|Logo Usage]].
 
-## What Is in This Folder
+![[99 Assets/Brand Kit/Logos/PNG/completeful_horizontal_gradient_800w.png|320]]
 
-The Logos Drive contains every approved variant of the Completeful mark. When pulling a logo for any use, always go to this Drive folder — never recreate a logo from a screenshot, low-res image, or memory.
+## Variants
 
-### Expected Variants
+| Variant | File (vault) | Use |
+|---|---|---|
+| Gradient lockup | `Logos/Vector/completeful_horizontal_vector_gradient.svg` | Default. White and light neutrals |
+| Solid pink lockup | `Logos/Vector/completeful_horizontal_vector_pink.svg` | One color print, tape, email signature |
+| Black lockup | `Logos/Vector/completeful_horizontal_vector_black.svg` | Documents, low color print |
+| Navy lockup | `Logos/PNG/completeful_horizontal_navy_800w.png` | Documents on light |
+| White knockout lockup | `Logos/Vector/completeful_horizontal_vector_white.svg` | Black, navy, pink, dark photo |
+| Emblem (gradient, pink, black, white) | `Logos/Vector/completeful_emblem_vector_*.svg` | Avatars, app icons, favicons, small embroidery |
+| currentColor builds | `Logos/Vector/*_currentcolor.svg` | CSS recolor in code |
+| App icons | `Logos/App_Icons/` | favicon.ico, 16, 32, 180, 192, 512 |
+| Open graph | `Logos/Social/open_graph_1200x630.jpg` | Link previews |
 
-| Variant | Use Case |
-|---|---|
-| Primary logo (full color) | Default use on white or light backgrounds |
-| Reversed logo (white/light on dark) | Use on Navy #1B2A4A or dark background applications |
-| Icon / mark only | Profile pictures, favicons, small-format placements |
-| Horizontal lockup | Wide-format applications: website headers, banners, email headers |
-| Vertical / stacked lockup | Square or portrait-format applications: social profile graphics, printed collateral |
+Not available yet: stacked or vertical lockup, original AI or EPS master. SVGs are traced from 3000px and 8000px PNG masters and are production safe.
 
-### File Formats
+## Usage rules
 
-| Format | Use |
-|---|---|
-| SVG | Web use, scalable graphics, anything where sharp lines at any size matter |
-| PNG (transparent background) | General digital use, overlays, social media |
-| EPS | Print production, vendor files, high-resolution output |
+- Always pull from the Brand Kit. Never screenshot the site or a social avatar
+- Never stretch, rotate, recolor, add effects, or rebuild the wordmark
+- Clear space: height of the emblem circle on all sides
+- Minimum: lockup 140px / 1.25in, emblem 24px / 0.35in
+- Gradient logo on white or light neutrals only. White knockout everywhere else
+- The tagline is a separate element. Never attach it to the logo file
 
----
+## Key values
 
-## Usage Rules
+- Pink `#ED128C` · gradient `#FF2B92 to #FF8433` · Orange `#FF6B35` · Navy `#34424E`
+- Owners (headlines) + Inter (body)
+- Full spec: [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]]
 
-- **Always use files from the Drive folder.** Do not pull logos from completeful.com screenshots or social profile thumbnails.
-- **Do not stretch, rotate, recolor, or add effects to the logo.** If a new treatment is needed, create it properly and upload it to the Drive folder.
-- **Maintain clear space.** The logo should have clear space on all sides equal to at least the height of the wordmark's capital letters.
-- **Use the reversed version on dark backgrounds.** Placing the full-color logo on Navy or dark backgrounds reduces legibility. Always use the reversed/white version.
-- **The logo is not the tagline.** The tagline "You Design & Sell It, We Create & Fulfill It." is a separate brand element and should not be attached directly to the logo mark without approved art direction.
+## Adding new logo files
 
----
-
-## Brand Identity Reference
-
-For the full brand system — including color hex codes, typography specifications, and voice guidelines — see [[10 Maps/Topic - Visual Identity MOC|Visual Identity]].
-
-Key values for quick reference:
-- Navy: #1B2A4A
-- Teal: #1ABC9C
-- Accent Blue: #3A7BD5
-- Primary typefaces: Inter, Montserrat, Bebas Neue
-
----
-
-## Adding New Logo Files
-
-When a new variant or treatment is approved:
-1. Upload the file to the Logos Drive folder in the appropriate format.
-2. Add a row to the Variants table above.
-3. Note the approval decision in [[Decision Log]] if it reflects a brand change.
+1. Add to the Drive Brand Kit `01_Logos/` in the right subfolder
+2. Copy web sizes and SVG into `99 Assets/Brand Kit/Logos/`
+3. Add a row to the Variants table
+4. Log brand changes in [[Decision Log]]
 
 ## Related
+- [[99 Assets/Brand Kit Files|Brand Kit Files]]
 - [[99 Assets/Mockup & Content Library|Mockup & Content Library]]
 - [[99 Assets/_Asset Library Index|Asset Library Index]]

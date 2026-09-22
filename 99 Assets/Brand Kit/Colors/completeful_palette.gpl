@@ -1,0 +1,34 @@
+GIMP Palette
+Name: Completeful
+Columns: 6
+#
+237  18 140	Completeful Pink
+196  16 106	Pink Deep
+255 107  53	Completeful Orange
+ 52  66  78	Completeful Navy
+226 194 196	Completeful Blush
+255 255 255	Completeful White
+255  43 146	Gradient Start
+255 132  51	Gradient End
+224   0 114	Gradient Hover Start
+214  53   1	Gradient Hover End
+253 242 248	Pink 50
+252 231 243	Pink 100
+251 207 232	Pink 200
+249 168 212	Pink 300
+244 114 182	Pink 400
+237  18 140	Pink 500
+219  39 119	Pink 600
+190  24  93	Pink 700
+157  23  77	Pink 800
+131  24  67	Pink 900
+249 250 251	Neutral 50
+243 244 246	Neutral 100
+229 231 235	Neutral 200
+209 213 219	Neutral 300
+156 163 175	Neutral 400
+107 114 128	Neutral 500
+ 75  85  99	Neutral 600
+ 55  65  81	Neutral 700
+ 31  41  55	Neutral 800
+ 17  24  39	Neutral 900

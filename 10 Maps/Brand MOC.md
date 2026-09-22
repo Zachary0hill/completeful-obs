@@ -32,12 +32,15 @@ All pages in this area, grouped by folder. Linked here so they cluster in the gr
 - [[00 Brand/Verbal Identity/Voice & Tone|Voice & Tone]]
 
 ## Visual Identity
+- [[00 Brand/Visual Identity/_Completeful Brand System|★ Completeful Brand System (source of truth)]]
 - [[00 Brand/Visual Identity/_Completeful Image Style Spec|★ Image Style Spec (canonical)]]
 - [[00 Brand/Visual Identity/Color Palette|Color Palette]]
-- [[00 Brand/Visual Identity/Completeful Brand Theme (Light + Dark)|Completeful Brand Theme (Light + Dark)]]
-- [[00 Brand/Visual Identity/Completeful Light + Charcoal Dark Theme|Completeful Light + Charcoal Dark Theme]]
-- [[00 Brand/Visual Identity/Completeful Light Mode Optimized Theme|Completeful Light Mode Optimized Theme]]
+- [[00 Brand/Visual Identity/Typography|Typography]]
 - [[00 Brand/Visual Identity/Logo Usage|Logo Usage]]
+- [[00 Brand/Visual Identity/Iconography|Iconography]]
+- [[00 Brand/Visual Identity/Design System & Components|Design System & Components]]
 - [[00 Brand/Visual Identity/Photography & Mockup Style|Photography & Mockup Style]]
 - [[00 Brand/Visual Identity/Templates & Dimensions|Templates & Dimensions]]
-- [[00 Brand/Visual Identity/Typography|Typography]]
+
+## Archive
+- [[00 Brand/_Archive/Legacy Visual Identity (Deprecated)|Legacy Visual Identity (Deprecated)]]

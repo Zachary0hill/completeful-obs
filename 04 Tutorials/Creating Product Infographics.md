@@ -49,7 +49,7 @@ Tap Preview to see the image at full resolution before saving. When satisfied, t
 
 - Keep each panel focused on one message — feature, size, or care
 - Use high-contrast text so the copy reads clearly on mobile thumbnails
-- Match your brand color palette (Navy #1B2A4A, Teal #1ABC9C, Accent Blue #3A7BD5) for a consistent storefront look
+- Match your own brand color palette across every infographic for a consistent storefront look
 - Etsy recommends a 2000 x 2000 px square; Shopify product images display best at 2048 x 2048 px
 
 ## Where to Go Next

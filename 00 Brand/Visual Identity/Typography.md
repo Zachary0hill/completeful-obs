@@ -1,6 +1,9 @@
 ---
 title: Typography
 type: brand-guideline
+status: canonical
+source: Completeful Brand Kit v1.0 (Sept 2026), generated from production globals.css
+updated: 2026-09-22
 tags:
   - brand
   - brand/visual
@@ -10,113 +13,97 @@ tags:
   - content
 ---
 
-## Overview
+# Typography
 
-Completeful's type system uses three typefaces with distinct, non-overlapping roles. Bebas Neue delivers punchy, high-energy headlines that match the bold, seller-coaching voice. Inter and Montserrat cover all UI, body, and supporting copy with clarity and readability. Together the system feels both professional and energetic without becoming overly designed.
+> [!important] Source of truth
+> Two families. **Owners** sets everything that shouts. **Inter** sets everything that explains.
 
----
+## Families
 
-## Typefaces
-
-### Bebas Neue
-**Role:** Display, headlines, hook statements, carousel title slides, reel text overlays, stat callouts
-
-Bebas Neue is an all-caps condensed sans-serif. It commands attention at large sizes and pairs naturally with the Navy/Teal color palette. It is never used for body copy or at small sizes.
-
-- Style: All caps only (the typeface has no lowercase)
-- Google Fonts: Yes (free, web-safe via Google Fonts CDN)
-- Adobe Fonts: Available
-
-**Approved weights:** Regular (400) — this is the only weight; the design intent is achieved through size, color, and tracking
-
-### Inter
-**Role:** Body copy, UI labels, captions, metadata, footnotes, email body, documentation
-
-Inter was designed specifically for screen readability. It is the go-to choice for any text that needs to be read in full sentences, especially at small-to-medium sizes on digital screens.
-
-- Style: Geometric sans-serif, neutral, highly legible
-- Google Fonts: Yes
-- Approved weights: Regular (400), Medium (500), SemiBold (600), Bold (700)
-- Do not use: Thin (100), Light (300), or Black (900) — these weights fall outside the brand's clean, confident tone
-
-### Montserrat
-**Role:** Subheadings, call-to-action text, UI navigation, card headers, infographic labels, social copy overlays
-
-Montserrat is slightly more characterful than Inter and works as the mid-level voice in the hierarchy. It bridges Bebas Neue headlines and Inter body text. Montserrat is also the preferred typeface for button labels, slide subtitles, and short explanatory headers.
-
-- Style: Geometric sans-serif with a slightly friendly quality
-- Google Fonts: Yes
-- Approved weights: Regular (400), Medium (500), SemiBold (600), Bold (700), ExtraBold (800)
-
----
-
-## Type Size Hierarchy
-
-### Web and Digital Content
-
-| Level | Typeface | Weight | Size | Use Case |
+| Family | Role | Weights | License | In vault |
 |---|---|---|---|---|
-| H1 Display | Bebas Neue | Regular | 56-72px | Hero sections, page titles, carousel hook slide |
-| H1 | Bebas Neue | Regular | 40-56px | Section headers, video overlay titles |
-| H2 | Montserrat | Bold (700) | 28-36px | Sub-section headers, carousel slide titles |
-| H3 | Montserrat | SemiBold (600) | 22-26px | Card headers, infographic section titles |
-| H4 | Montserrat | Medium (500) | 18-20px | Feature labels, bold callouts |
-| Body | Inter | Regular (400) | 16px | Long-form copy, blog posts, email body |
-| Body Large | Inter | Regular (400) | 18px | Intro paragraphs, pull quotes |
-| UI / Label | Inter | Medium (500) | 14px | Navigation, tags, button labels (when not Montserrat) |
-| Caption | Inter | Regular (400) | 12px | Image credits, footnotes, fine print |
+| **Owners** | Headlines, buttons, navbar, section titles | 700, 800 | MCKL Type, commercial. Included with Adobe Fonts | No. Licensed, install via Adobe Fonts |
+| **Inter** | Body, UI, labels, badges, product labels | 400, 500, 600, 700 | SIL OFL | Drive kit `03_Fonts/Inter` |
+| **Work Sans** | Body alternate, secondary UI | 400 to 700 | SIL OFL | Drive kit `03_Fonts/Work_Sans` |
+| **Archivo** | Approved Owners fallback | 700, 800, 900 | SIL OFL | Drive kit `03_Fonts/Archivo_Fallback` |
 
-### Social Content (Carousels, Reels, Stories)
+Font stacks (from [[99 Assets/Brand Kit/Tokens/tokens.json|tokens.json]]):
 
-| Level | Typeface | Weight | Approximate Size |
-|---|---|---|---|
-| Slide Hook Title | Bebas Neue | Regular | 60-80px at 1080px canvas |
-| Slide Body Header | Montserrat | Bold | 32-40px |
-| Slide Body Text | Inter | Regular or Medium | 22-26px |
-| CTA Text | Montserrat | ExtraBold | 30-38px |
-| Small Callout / Tag | Inter | SemiBold | 18px |
+```css
+--cf-font-heading: Owners, Archivo, sans-serif;
+--cf-font-body: Inter, "Work Sans", system-ui, sans-serif;
+```
 
-### Print
+## Type scale
 
-| Level | Typeface | Size |
+| Level | Family and weight | Size | Line height | Tracking | Case |
+|---|---|---|---|---|---|
+| Hero headline | Owners ExtraBold 800 | `clamp(36px, 6vw, 48px)` | 1.1 | -0.5px | UPPERCASE |
+| Section heading | Owners Bold 700 | 24px to 36px responsive | 1.2 | -0.5px | UPPERCASE |
+| Subsection heading | Owners Bold 700 | 24px | 1.3 | -0.5px | UPPERCASE |
+| Subheadline | Inter Medium 500 | 18px (16px mobile) | 1.6 | 0 | Sentence |
+| Body | Inter Regular 400 | 16px mobile, 18px from 768px | 1.6 | 0 | Sentence |
+| Product label | Inter Medium 500 | 14px | 1.4 | 0.2px | Capitalize |
+| Badge, micro copy | Inter Regular 400 | 13px | 1.4 | 0 | Sentence |
+| Button label | Owners Bold 700 | 16px (14px mobile) | 1 | 1px (0.8px mobile) | UPPERCASE |
+
+- Body color `#444444`. Headline color `#111111`.
+- Body measure capped near 70 characters.
+
+## Social and print sizing
+
+Derived from the scale above for 1080px canvases.
+
+| Level | Family and weight | Size at 1080px |
 |---|---|---|
-| Cover / Title | Bebas Neue | 60-96pt |
-| Section Header | Montserrat Bold | 24-36pt |
-| Body | Inter Regular | 10-12pt |
-| Caption / Footnote | Inter Regular | 8-9pt |
+| Hook title | Owners ExtraBold 800, uppercase | 64 to 88px |
+| Slide header | Owners Bold 700, uppercase | 36 to 44px |
+| Slide body | Inter Regular or Medium | 24 to 28px |
+| CTA | Owners Bold 700, uppercase, 1px tracking | 32 to 40px |
+| Tag, small callout | Inter SemiBold 600 | 18 to 20px |
 
----
+Print: titles Owners 800 at 48 to 96pt, section heads Owners 700 at 24 to 36pt, body Inter 400 at 10 to 12pt, captions Inter 400 at 8 to 9pt.
 
-## Pairing Rules
+## Rules
 
-1. Bebas Neue always functions as the loudest voice in a composition. Do not pair two Bebas Neue elements of similar size on the same slide or section; vary scale dramatically (e.g., 72px headline next to a 22px Inter body line).
+Do:
 
-2. Montserrat and Inter can coexist on the same slide or page, but differentiate them by weight and size. A common pairing: Montserrat SemiBold at 28px for the section title, Inter Regular at 16px for the paragraph.
+- Set headlines uppercase with tight negative tracking
+- Keep body copy sentence case at 1.6 line height
+- Use gradient text on one word per headline at most
+- Let Inter carry every paragraph, table and form label
 
-3. Never set Bebas Neue below 24px. At smaller sizes it loses legibility and the brand impact is lost.
+Do not:
 
-4. Tracking (letter-spacing): Bebas Neue headlines benefit from slight negative tracking at very large sizes (-10 to -20 units) and neutral or slight positive tracking at smaller display sizes (+20 to +40 units). Montserrat and Inter use default tracking in most cases; apply slight positive tracking (+50 to +100 units) for all-caps label text in Montserrat.
+- Set body copy in Owners
+- Mix Inter and Work Sans in the same block
+- Add a third display face for a campaign
+- Set all caps under 14px without tracking
+- Use light weights. The brand is bold or regular
 
-5. Line height: Body copy (Inter) at 1.6x line height for readability. Bebas Neue display at 0.95-1.1x. Montserrat headers at 1.2-1.3x.
+## Known issue: Owners on the live site
 
----
+- `globals.css` imports Owners from `api.fontshare.com`
+- Fontshare does not publish Owners, so the request returns an empty stylesheet
+- Every live heading renders in a fallback face
+- Fix: embed Owners through an Adobe Fonts web project, or set the heading stack to Archivo
+- Confirm the license covers web embedding. Adobe Fonts via Creative Cloud does. A direct MCKL desktop license does not
 
-## Web vs Print Considerations
+## Canva
 
-**Web / Digital:**
-Load typefaces via Google Fonts CDN for performance. Define the font stack with system fallback:
-- Bebas Neue: `'Bebas Neue', Impact, sans-serif`
-- Inter: `'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif`
-- Montserrat: `'Montserrat', 'Helvetica Neue', Arial, sans-serif`
+- Canva brand kit still lists Gotham and SF Pro Display. Neither is used in the product
+- Update Canva to Owners (if license allows upload), Inter, Work Sans, Archivo
+- Upload the variable TTFs from the Drive kit `03_Fonts/`
 
-Use `font-display: swap` to avoid invisible text during load.
+## Install
 
-**Print:**
-Embed fonts as subsets in exported PDFs. For large-format print (banners, booth graphics), use vector-exported PDF or EPS to prevent rasterization artifacts on Bebas Neue headlines. Print files should be exported at 300 DPI minimum for any raster elements accompanying the type.
+- macOS: double click the `.ttf`, click Install Font. Team install: `/Library/Fonts/`
+- Web: [[99 Assets/Brand Kit/Tokens/webfont_import.css|webfont_import.css]], point `url()` paths at hosted woff2 files
+- Font binaries live in Drive only: `Media Vault/02 Brand Assets/Completeful/Completeful_Brand_Kit/03_Fonts/`
 
 ## Related
+- [[00 Brand/Visual Identity/_Completeful Brand System|★ Completeful Brand System]]
 - [[00 Brand/Visual Identity/Color Palette|Color Palette]]
-- [[00 Brand/Visual Identity/Photography & Mockup Style|Photography & Mockup Style]]
-- [[00 Brand/Visual Identity/Logo Usage|Logo Usage]]
+- [[00 Brand/Visual Identity/Design System & Components|Design System & Components]]
 - [[00 Brand/Visual Identity/Templates & Dimensions|Templates & Dimensions]]
-- [[00 Brand/Visual Identity/Completeful Brand Theme (Light + Dark)|Completeful Brand Theme (Light + Dark)]]
+- [[00 Brand/_Archive/Legacy Visual Identity (Deprecated)|Legacy Visual Identity (Deprecated)]]

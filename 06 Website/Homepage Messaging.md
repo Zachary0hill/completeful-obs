@@ -52,7 +52,7 @@ These statements can be used as secondary callouts, feature highlights, or secti
 Primary CTA: **Start Selling** or **Get Started** — leads to sign-up flow
 Secondary CTA: **Browse the Catalog** — leads to the product catalog page without requiring a sign-up
 
-Both CTAs should be present above the fold. The primary CTA should use the brand Teal (#1ABC9C) button style. The secondary CTA can use a lighter treatment (outlined button or text link in Accent Blue #3A7BD5).
+Both CTAs should be present above the fold. The primary CTA uses the gradient button (135deg #FF2B92 to #FF8433, one per screen) or the solid pink #ED128C primary button. The secondary CTA uses the pink outline button or the navy #34424E outline button.
 
 ## Tone Standards
 
@@ -73,11 +73,11 @@ Homepage copy follows the broader Completeful voice:
 
 ## Brand Colors for Homepage Use
 
-- Navy #1B2A4A — primary background or text on light surfaces
-- Teal #1ABC9C — primary action elements (buttons, highlights, key statistics)
-- Accent Blue #3A7BD5 — secondary links, supporting highlights
+- Pink #ED128C, primary actions, links, active states, logo
+- Gradient #FF2B92 to #FF8433, hero CTA and one emphasized headline word
+- Navy #34424E, outline buttons and secondary UI. Pastel washes behind hero sections
 
-Type stack: Inter for body, Montserrat for subheadings, Bebas Neue for large display text.
+Type stack: Owners for headlines and buttons (uppercase, fallback Archivo), Inter for body. Full spec: [[00 Brand/Visual Identity/_Completeful Brand System|Completeful Brand System]].
 
 ## Related
 - [[06 Website/Blog Strategy & SEO|Blog Strategy & SEO]]

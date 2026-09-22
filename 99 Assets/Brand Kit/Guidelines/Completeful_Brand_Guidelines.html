@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Completeful Brand Guidelines</title>
+<style>
+@font-face{font-family:"Inter";font-weight:400;font-display:swap;src:url("../03_Fonts/Inter/webfonts/inter-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;font-display:swap;src:url("../03_Fonts/Inter/webfonts/inter-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:600;font-display:swap;src:url("../03_Fonts/Inter/webfonts/inter-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:700;font-display:swap;src:url("../03_Fonts/Inter/webfonts/inter-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo";font-weight:700;font-display:swap;src:url("../03_Fonts/Archivo_Fallback/webfonts/archivo-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo";font-weight:800;font-display:swap;src:url("../03_Fonts/Archivo_Fallback/webfonts/archivo-latin-800-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo";font-weight:900;font-display:swap;src:url("../03_Fonts/Archivo_Fallback/webfonts/archivo-latin-900-normal.woff2") format("woff2")}
+
+:root{
+  --pink:#ED128C; --pink-deep:#C4106A; --orange:#FF6B35; --navy:#34424E; --blush:#E2C2C4;
+  --g1:#FF2B92; --g2:#FF8433;
+  --ink:#111111; --body:#444444; --line:#E5E7EB; --paper:#FFFFFF; --soft:#F9FAFB;
+  --heading:"Owners","Archivo",sans-serif; --text:"Inter","Work Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--soft);color:var(--body);font-family:var(--text);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--heading);color:var(--ink);letter-spacing:-.5px;margin:0}
+h1{font-size:52px;font-weight:800;line-height:1.05;text-transform:uppercase}
+h2{font-size:30px;font-weight:800;text-transform:uppercase;line-height:1.1}
+h3{font-size:19px;font-weight:700;letter-spacing:0}
+h4{font-size:14px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--pink-deep)}
+p{margin:0 0 14px}
+a{color:var(--pink-deep)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;background:#F3F4F6;padding:2px 6px;border-radius:4px;color:#1F2937}
+
+.page{max-width:1040px;margin:0 auto;padding:0 40px}
+section{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:44px;margin:0 0 26px}
+.sec-head{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--line);padding-bottom:16px;margin-bottom:30px}
+.sec-num{font-family:var(--heading);font-weight:800;font-size:30px;background:linear-gradient(135deg,var(--g1),var(--g2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.lead{font-size:17px;font-weight:500;color:#333}
+
+.cover{background:#0A0A0A;border-radius:0;border:none;margin:0 -40px 26px;padding:90px 40px 70px;text-align:left;position:relative;overflow:hidden}
+.cover:after{content:"";position:absolute;inset:auto -10% -60% 40%;height:420px;background:radial-gradient(closest-side,rgba(237,18,140,.55),transparent 70%);filter:blur(10px)}
+.cover-inner{max-width:1040px;margin:0 auto;position:relative;z-index:1}
+.cover img{width:440px;max-width:70%;display:block;margin-bottom:44px}
+.cover h1{color:#fff;font-size:64px}
+.cover .sub{color:#BDBDBD;font-size:17px;margin-top:14px;max-width:560px}
+.cover .meta{color:#7A7A7A;font-size:12.5px;margin-top:40px;letter-spacing:.4px;text-transform:uppercase}
+
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+
+.swatch{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+.swatch .chip{height:104px}
+.swatch .body{padding:12px 14px}
+.swatch .nm{font-family:var(--heading);font-weight:700;font-size:14px;color:var(--ink);letter-spacing:0}
+.swatch .val{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;color:#6B7280;margin-top:4px;line-height:1.55}
+.swatch .use{font-size:12px;color:#6B7280;margin-top:8px;line-height:1.45}
+
+.scale{display:grid;grid-template-columns:repeat(10,1fr);border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.scale div{height:74px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:7px;font-size:10.5px;font-family:ui-monospace,monospace}
+
+.logo-tile{border:1px solid var(--line);border-radius:14px;padding:26px;display:flex;align-items:center;justify-content:center;min-height:132px;background:#fff}
+.logo-tile.dark{background:#0A0A0A;border-color:#222}
+.logo-tile.pinkbg{background:var(--pink);border-color:var(--pink)}
+.logo-tile.photo{background:linear-gradient(135deg,#34424E,#6B7280)}
+.logo-tile img{max-width:100%;max-height:78px}
+.cap{font-size:12px;color:#6B7280;text-align:center;margin-top:8px}
+
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:6px 0 18px}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+th{background:#F9FAFB;font-weight:600;color:var(--ink)}
+td code{font-size:12px}
+
+.do,.dont{border-radius:14px;padding:18px 20px;font-size:13.5px}
+.do{background:#F0FFF7;border:1px solid #BBF3D8}
+.dont{background:#FFE8E8;border:1px solid #FFC9C9}
+.do b,.dont b{display:block;font-family:var(--heading);text-transform:uppercase;font-size:12px;letter-spacing:.8px;margin-bottom:8px}
+.do b{color:#0B7A4B}.dont b{color:#B4232B}
+.do ul,.dont ul{margin:0;padding-left:18px}
+.do li,.dont li{margin-bottom:6px}
+
+.clearspace{position:relative;border:1px solid var(--line);border-radius:14px;padding:30px;background:#fff}
+.clearspace .box{border:2px dashed var(--pink);padding:44px;display:flex;align-items:center;justify-content:center}
+.clearspace .box img{max-width:70%}
+
+.btnrow{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:6px 0 4px}
+.b{font-family:var(--heading);font-weight:700;font-size:15px;padding:14px 24px;text-transform:uppercase;letter-spacing:1px;border-radius:8px;border:none;color:#fff}
+.b1{background:var(--pink);box-shadow:0 4px 15px rgba(237,18,140,.25)}
+.b2{background:linear-gradient(135deg,var(--g1),var(--g2));box-shadow:0 4px 15px rgba(255,43,146,.25)}
+.b3{background:transparent;border:2px solid var(--pink);color:var(--pink);padding:12px 22px}
+.b4{background:transparent;border:2px solid var(--navy);color:var(--navy);padding:12px 22px}
+
+.type-row{border-bottom:1px solid var(--line);padding:16px 0;display:grid;grid-template-columns:1fr 220px;gap:20px;align-items:baseline}
+.type-row:last-child{border-bottom:none}
+.type-spec{font-family:ui-monospace,monospace;font-size:11.5px;color:#6B7280;line-height:1.6}
+
+.iconsheet{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;padding:20px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.iconsheet img{width:100%;height:auto}
+
+.callout{border-left:4px solid var(--pink);background:#FFF4F8;padding:16px 20px;border-radius:0 12px 12px 0;margin:18px 0;font-size:13.5px}
+.callout b{font-family:var(--heading);text-transform:uppercase;font-size:12px;letter-spacing:.7px;color:var(--pink-deep);display:block;margin-bottom:6px}
+
+.pill{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;padding:4px 10px;border-radius:999px;margin-right:6px}
+.pass{background:#E6F7EF;color:#0B7A4B}
+.fail{background:#FDE7E7;color:#B4232B}
+.warn{background:#FFF3E2;color:#9A5B12}
+
+.voice{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.voice>div{padding:18px 20px;font-size:13.5px}
+.voice>div:first-child{background:#F0FFF7;border-right:1px solid var(--line)}
+.voice>div:last-child{background:#FFF7F7}
+
+footer{padding:34px 0 70px;text-align:center;color:#9CA3AF;font-size:12px}
+
+@media print{
+  body{background:#fff;font-size:11.5px}
+  section{border:none;border-radius:0;padding:0 0 24px;margin:0 0 26px;page-break-inside:avoid}
+  .page{max-width:none;padding:0}
+  .cover{margin:0 0 24px;padding:60px 40px}
+  h1{font-size:44px}.cover h1{font-size:48px}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  section{break-inside:avoid}
+  h2{page-break-after:avoid}
+}
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-inner">
+    <img src="../Logos/PNG/completeful_horizontal_white_1500w.png" alt="Completeful">
+    <h1>Brand<br>Guidelines</h1>
+    <p class="sub">Print on demand, personalization and 3PL fulfillment under one roof. Lafayette, Louisiana.</p>
+    <p class="meta">Version 1.0 &nbsp;&middot;&nbsp; September 2026 &nbsp;&middot;&nbsp; Built from the production site tokens</p>
+  </div>
+</div>
+
+<div class="page">
+
+<section>
+  <div class="sec-head"><span class="sec-num">01</span><h2>Brand foundation</h2></div>
+  <p class="lead">Completeful is the only 3PL built for personalized products. Traditional fulfillment centers ship pre-made inventory. Completeful engraves, prints, embroiders and assembles on demand, then ships from a single warehouse in Lafayette, Louisiana.</p>
+
+  <h3>Positioning statement</h3>
+  <p>3PL and print on demand under one roof. One vendor, one warehouse, one point of accountability, for brands whose products carry a customer's name on them.</p>
+
+  <h3>Proof points</h3>
+  <table>
+    <tr><th>Claim</th><th>Detail</th></tr>
+    <tr><td>98.7% order accuracy</td><td>Correct item, quantity, personalization and address. Errors fixed at Completeful's expense.</td></tr>
+    <tr><td>Operating since 2019</td><td>Lafayette, Louisiana facility.</td></tr>
+    <tr><td>45% US coverage in 2 to 4 days</td><td>Ground shipping from Lafayette.</td></tr>
+    <tr><td>Under 1% personalization error rate</td><td>Errors remade free and expedited.</td></tr>
+    <tr><td>Dedicated account manager</td><td>Named human, M to F 8am to 5pm, 24 hour response.</td></tr>
+  </table>
+
+  <h3>Capabilities to name by their real names</h3>
+  <p>Laser engraving. UV printing. Embroidery. DTG apparel. Custom assembly and kitting. Warehousing and pick, pack, ship. Integrations with Shopify, TikTok Shop and Etsy.</p>
+
+  <h3>Voice</h3>
+  <div class="voice">
+    <div><b style="display:block;font-family:var(--heading);text-transform:uppercase;font-size:12px;letter-spacing:.8px;color:#0B7A4B;margin-bottom:8px">Sounds like Completeful</b>
+      Direct and operational. Specific numbers over adjectives. Names the failure the customer already had with another vendor, then names the fix. Short sentences. Second person. Confident without hype.
+      <br><br><i>"Stop juggling multiple vendors. We personalize on demand and ship direct, all under one roof."</i>
+    </div>
+    <div><b style="display:block;font-family:var(--heading);text-transform:uppercase;font-size:12px;letter-spacing:.8px;color:#B4232B;margin-bottom:8px">Does not sound like Completeful</b>
+      Corporate logistics filler. Unbacked superlatives. Vague promises with no number attached. Startup hype language. Exclamation points.
+      <br><br><i>"We are passionate about revolutionizing your fulfillment journey!"</i>
+    </div>
+  </div>
+
+  <h3>Naming</h3>
+  <p><b>Completeful</b>, one word, capital C, no space, no hyphen. Never "Complete Ful", "CompleteFul" or "Completefull". Social handle <code>@completefultech</code>.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">02</span><h2>Logo</h2></div>
+  <p class="lead">The mark is a circular arrow closing a loop around a checkmark: an order going out and coming back complete. It works locked up with the wordmark, or alone once the audience knows the brand.</p>
+
+  <h3>Primary lockup</h3>
+  <p>The gradient horizontal lockup is the default. Use it on white and on light neutral surfaces.</p>
+  <div class="grid g2">
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_horizontal_gradient_800w.png" alt="Gradient lockup"></div><div class="cap">Primary, gradient, on white</div></div>
+    <div><div class="logo-tile dark"><img src="../Logos/PNG/completeful_horizontal_white_800w.png" alt="White lockup"></div><div class="cap">Knockout white, on dark</div></div>
+  </div>
+
+  <h3>Full variant set</h3>
+  <div class="grid g4" style="margin-top:6px">
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_horizontal_pink_800w.png" alt=""></div><div class="cap">Solid pink</div></div>
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_horizontal_black_800w.png" alt=""></div><div class="cap">Solid black</div></div>
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_horizontal_navy_800w.png" alt=""></div><div class="cap">Navy</div></div>
+    <div><div class="logo-tile pinkbg"><img src="../Logos/PNG/completeful_horizontal_white_800w.png" alt=""></div><div class="cap">White on pink</div></div>
+  </div>
+
+  <h3>Emblem</h3>
+  <p>Use the emblem alone for avatars, app icons, favicons, packing tape, embroidery on small areas and any square placement. Do not recreate the wordmark next to it by hand, use the lockup file instead.</p>
+  <div class="grid g4" style="margin-top:6px">
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_emblem_gradient_512w.png" style="max-height:104px" alt=""></div><div class="cap">Gradient</div></div>
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_emblem_pink_512w.png" style="max-height:104px" alt=""></div><div class="cap">Pink</div></div>
+    <div><div class="logo-tile dark"><img src="../Logos/PNG/completeful_emblem_white_512w.png" style="max-height:104px" alt=""></div><div class="cap">White</div></div>
+    <div><div class="logo-tile"><img src="../Logos/PNG/completeful_emblem_black_512w.png" style="max-height:104px" alt=""></div><div class="cap">Black</div></div>
+  </div>
+
+  <h3>Clear space</h3>
+  <p>Keep clear space around the logo equal to the height of the emblem's circle, on all four sides. Nothing enters that zone: no text, no rules, no photo edges, no other logos.</p>
+  <div class="clearspace"><div class="box"><img src="../Logos/PNG/completeful_horizontal_gradient_800w.png" alt=""></div></div>
+
+  <h3>Minimum size</h3>
+  <table>
+    <tr><th>Asset</th><th>Digital minimum</th><th>Print minimum</th></tr>
+    <tr><td>Horizontal lockup</td><td>140 px wide</td><td>1.25 in / 32 mm wide</td></tr>
+    <tr><td>Emblem alone</td><td>24 px</td><td>0.35 in / 9 mm</td></tr>
+    <tr><td>Emblem, embroidery</td><td>n/a</td><td>0.75 in / 19 mm, single pink thread, drop the gradient</td></tr>
+  </table>
+
+  <h3>Backgrounds</h3>
+  <p>On white and light neutrals use the gradient or pink lockup. On black, navy or pink use the white knockout. On photography, place the white knockout over a dark, low detail area, or add a solid brand-color band behind it. Never place the gradient logo on a colored background.</p>
+
+  <div class="grid g2">
+    <div class="do"><b>Do</b><ul>
+      <li>Use the supplied files at their supplied proportions</li>
+      <li>Scale from a corner so the aspect ratio holds</li>
+      <li>Switch to white knockout the moment contrast drops</li>
+      <li>Use the SVG for anything above 800 px wide or anything printed</li>
+    </ul></div>
+    <div class="dont"><b>Do not</b><ul>
+      <li>Recolor, add strokes, shadows, bevels or glows</li>
+      <li>Stretch, condense, rotate or skew</li>
+      <li>Put the gradient lockup on colored or busy backgrounds</li>
+      <li>Rebuild the wordmark in another typeface</li>
+      <li>Box the logo in a shape that is not in this kit</li>
+      <li>Use the emblem and wordmark at different tints</li>
+    </ul></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">03</span><h2>Color</h2></div>
+  <p class="lead">One pink carries the brand. Orange exists only to end the gradient and to accent. Navy and neutrals do the structural work.</p>
+
+  <h3>Core palette</h3>
+  <div class="grid g3">
+    <div class="swatch"><div class="chip" style="background:#ED128C"></div><div class="body"><div class="nm">Completeful Pink</div><div class="val">HEX #ED128C<br>RGB 237 18 140<br>CMYK 0 92 41 7</div><div class="use">Primary. Logo, primary buttons, links, active states.</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#C4106A"></div><div class="body"><div class="nm">Pink Deep</div><div class="val">HEX #C4106A<br>RGB 196 16 106<br>CMYK 0 92 46 23</div><div class="use">Hover state. Required for pink text under 18px.</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#FF6B35"></div><div class="body"><div class="nm">Completeful Orange</div><div class="val">HEX #FF6B35<br>RGB 255 107 53<br>CMYK 0 58 79 0</div><div class="use">Accent and gradient end. Never body text on white.</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#34424E"></div><div class="body"><div class="nm">Completeful Navy</div><div class="val">HEX #34424E<br>RGB 52 66 78<br>CMYK 33 15 0 69</div><div class="use">Outline buttons, secondary UI, dark text on light.</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#E2C2C4"></div><div class="body"><div class="nm">Completeful Blush</div><div class="val">HEX #E2C2C4<br>RGB 226 194 196<br>CMYK 0 14 13 11</div><div class="use">Soft neutral. Dividers, muted fills, packaging.</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid #E5E7EB"></div><div class="body"><div class="nm">White</div><div class="val">HEX #FFFFFF<br>RGB 255 255 255<br>CMYK 0 0 0 0</div><div class="use">Primary surface and logo knockout.</div></div></div>
+  </div>
+
+  <h3>Signature gradient</h3>
+  <div style="height:96px;border-radius:14px;background:linear-gradient(135deg,#FF2B92 0%,#FF8433 100%);margin-bottom:10px"></div>
+  <table>
+    <tr><th>Use</th><th>Value</th></tr>
+    <tr><td>Primary gradient</td><td><code>linear-gradient(135deg, #FF2B92 0%, #FF8433 100%)</code></td></tr>
+    <tr><td>Hover gradient</td><td><code>linear-gradient(135deg, #E00072 0%, #D63501 100%)</code></td></tr>
+  </table>
+  <p>The gradient runs 135 degrees, pink at top left to orange at bottom right, always. It belongs on the logo, primary CTAs and single emphasized words in a headline. It does not belong behind body copy, across full page backgrounds, or in more than one place in the same view.</p>
+
+  <h3>Pink scale</h3>
+  <div class="scale">
+    <div style="background:#FDF2F8;color:#831843">50</div><div style="background:#FCE7F3;color:#831843">100</div><div style="background:#FBCFE8;color:#831843">200</div><div style="background:#F9A8D4;color:#831843">300</div><div style="background:#F472B6;color:#fff">400</div><div style="background:#ED128C;color:#fff">500</div><div style="background:#DB2777;color:#fff">600</div><div style="background:#BE185D;color:#fff">700</div><div style="background:#9D174D;color:#fff">800</div><div style="background:#831843;color:#fff">900</div>
+  </div>
+  <p style="margin-top:10px;font-size:13px;color:#6B7280">500 is the brand pink. Tints 50 to 200 are backgrounds. 600 to 900 are hovers, pressed states and text.</p>
+
+  <h3>Neutral scale</h3>
+  <div class="scale">
+    <div style="background:#F9FAFB;color:#111827">50</div><div style="background:#F3F4F6;color:#111827">100</div><div style="background:#E5E7EB;color:#111827">200</div><div style="background:#D1D5DB;color:#111827">300</div><div style="background:#9CA3AF;color:#fff">400</div><div style="background:#6B7280;color:#fff">500</div><div style="background:#4B5563;color:#fff">600</div><div style="background:#374151;color:#fff">700</div><div style="background:#1F2937;color:#fff">800</div><div style="background:#111827;color:#fff">900</div>
+  </div>
+
+  <h3>Pastel accents</h3>
+  <div class="grid g4" style="margin-top:6px">
+    <div class="swatch"><div class="chip" style="background:#F3F0FF;height:64px"></div><div class="body"><div class="nm">Lavender</div><div class="val">#F3F0FF</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#FFF4F0;height:64px"></div><div class="body"><div class="nm">Peach</div><div class="val">#FFF4F0</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#F0FFF7;height:64px"></div><div class="body"><div class="nm">Mint</div><div class="val">#F0FFF7</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#FFE8E8;height:64px"></div><div class="body"><div class="nm">Coral</div><div class="val">#FFE8E8</div></div></div>
+  </div>
+  <p style="margin-top:10px;font-size:13px;color:#6B7280">Section backgrounds and card fills only. Never as text or icon colors.</p>
+
+  <h3>Interface themes</h3>
+  <table>
+    <tr><th>Token</th><th>Dark (default)</th><th>Light</th></tr>
+    <tr><td>Background</td><td><code>#0A0A0A</code></td><td><code>#F9FAFB</code></td></tr>
+    <tr><td>Foreground</td><td><code>#E8E8E8</code></td><td><code>#111827</code></td></tr>
+    <tr><td>Card</td><td><code>#111111</code></td><td><code>#FFFFFF</code></td></tr>
+    <tr><td>Border</td><td><code>#262626</code></td><td><code>#E5E7EB</code></td></tr>
+    <tr><td>Muted</td><td><code>#202020</code></td><td><code>#F3F4F6</code></td></tr>
+    <tr><td>Muted foreground</td><td><code>#A3A3A3</code></td><td><code>#4B5563</code></td></tr>
+    <tr><td>Primary</td><td colspan="2"><code>#ED128C</code> in both themes</td></tr>
+  </table>
+
+  <h3>Contrast rules, measured</h3>
+  <table>
+    <tr><th>Pair</th><th>Ratio</th><th>Verdict</th></tr>
+    <tr><td>#ED128C on white</td><td>4.15:1</td><td><span class="pill warn">Large text only</span> 18px+ or 14px bold. Fails for body copy.</td></tr>
+    <tr><td>#C4106A on white</td><td>5.79:1</td><td><span class="pill pass">Passes AA</span> Use this for any pink text under 18px.</td></tr>
+    <tr><td>White on #ED128C</td><td>4.15:1</td><td><span class="pill warn">Large text only</span> Fine for uppercase button labels at 16px bold.</td></tr>
+    <tr><td>#FF6B35 on white</td><td>2.84:1</td><td><span class="pill fail">Fails</span> Decoration only. Never text.</td></tr>
+    <tr><td>#34424E on white</td><td>10.32:1</td><td><span class="pill pass">Passes AAA</span></td></tr>
+    <tr><td>#ED128C on #0A0A0A</td><td>4.78:1</td><td><span class="pill pass">Passes AA</span> for normal text.</td></tr>
+  </table>
+
+  <div class="callout"><b>Print</b>CMYK values here are conversions, not press proofs. #ED128C sits outside CMYK gamut and will print duller on uncoated stock. For anything that matters, ask the printer for a spot match against a physical sample. No official Pantone is assigned to the brand yet, assigning one is on the open items list.</div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">04</span><h2>Typography</h2></div>
+  <p class="lead">Two families. Owners sets everything that shouts. Inter sets everything that explains.</p>
+
+  <table>
+    <tr><th>Family</th><th>Role</th><th>Weights</th><th>License</th></tr>
+    <tr><td>Owners</td><td>Headlines, buttons, navbar, section titles</td><td>700, 800</td><td>MCKL Type, commercial. Included with Adobe Fonts.</td></tr>
+    <tr><td>Inter</td><td>Body, UI, labels, badges</td><td>400, 500, 600, 700</td><td>SIL OFL, ships in this kit</td></tr>
+    <tr><td>Work Sans</td><td>Body alternate</td><td>400 to 700</td><td>SIL OFL, ships in this kit</td></tr>
+    <tr><td>Archivo</td><td>Approved Owners fallback</td><td>700, 800, 900</td><td>SIL OFL, ships in this kit</td></tr>
+  </table>
+
+  <div class="callout"><b>Fix this in the site build</b><code>globals.css</code> imports Owners from <code>api.fontshare.com</code>. Owners is not published on Fontshare, so that request returns an empty stylesheet and every heading falls back to whatever the visitor has installed. Either embed Owners through an Adobe Fonts web project or set the heading stack to Archivo, which is in <code>03_Fonts/</code>.</div>
+
+  <h3>Type scale</h3>
+  <div class="type-row"><div style="font-family:var(--heading);font-weight:800;font-size:46px;line-height:1.05;letter-spacing:-.5px;text-transform:uppercase;color:var(--ink)">Hero headline</div><div class="type-spec">Owners ExtraBold 800<br>clamp(36px, 6vw, 48px)<br>line-height 1.1<br>letter-spacing -0.5px<br>UPPERCASE</div></div>
+  <div class="type-row"><div style="font-family:var(--heading);font-weight:700;font-size:34px;line-height:1.15;letter-spacing:-.5px;color:var(--ink)">Section heading</div><div class="type-spec">Owners Bold 700<br>24px to 36px responsive<br>line-height 1.2<br>letter-spacing -0.5px</div></div>
+  <div class="type-row"><div style="font-family:var(--heading);font-weight:700;font-size:24px;line-height:1.3;letter-spacing:-.5px;color:var(--ink)">Subsection heading</div><div class="type-spec">Owners Bold 700<br>24px / 1.3 / -0.5px</div></div>
+  <div class="type-row"><div style="font-weight:500;font-size:18px;line-height:1.6;color:#333">Subheadline. One sentence that carries the promise and the proof.</div><div class="type-spec">Inter Medium 500<br>18px / 1.6<br>#444444<br>16px on mobile</div></div>
+  <div class="type-row"><div style="font-weight:400;font-size:16px;line-height:1.6">Body copy. Sixteen pixels on mobile, eighteen from 768px up. Line height 1.6 throughout, measure capped near 70 characters.</div><div class="type-spec">Inter Regular 400<br>16px / 1.6<br>#444444</div></div>
+  <div class="type-row"><div style="font-weight:500;font-size:14px;letter-spacing:.2px;color:#444">Product label</div><div class="type-spec">Inter Medium 500<br>14px, tracking 0.2px<br>Capitalize</div></div>
+  <div class="type-row"><div style="font-weight:400;font-size:13px;color:#444">Badge and micro copy</div><div class="type-spec">Inter Regular 400<br>13px</div></div>
+  <div class="type-row"><div style="font-family:var(--heading);font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:1px;color:var(--ink)">Button label</div><div class="type-spec">Owners Bold 700<br>16px, tracking 1px<br>UPPERCASE<br>14px / 0.8px on mobile</div></div>
+
+  <h3>Rules</h3>
+  <div class="grid g2">
+    <div class="do"><b>Do</b><ul>
+      <li>Set headlines uppercase with tight negative tracking</li>
+      <li>Keep body copy sentence case at 1.6 line height</li>
+      <li>Use gradient text on one word per headline at most</li>
+      <li>Let Inter carry every paragraph, table and form label</li>
+    </ul></div>
+    <div class="dont"><b>Do not</b><ul>
+      <li>Set body copy in Owners</li>
+      <li>Mix Inter and Work Sans in the same block</li>
+      <li>Add a third display face for one campaign</li>
+      <li>Set headlines in all caps under 14px without tracking</li>
+      <li>Use light weights, the brand is bold or regular</li>
+    </ul></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">05</span><h2>Components</h2></div>
+  <p class="lead">These are the production specs, not approximations. Copy them from <code>06_Design_Tokens/components.css</code>.</p>
+
+  <h3>Buttons</h3>
+  <div class="btnrow">
+    <span class="b b1">Get a free quote</span>
+    <span class="b b2">Get a free quote</span>
+    <span class="b b3">Schedule a call</span>
+    <span class="b b4">Learn more</span>
+  </div>
+  <table>
+    <tr><th>Type</th><th>Fill</th><th>Hover</th><th>Use</th></tr>
+    <tr><td>Primary</td><td>#ED128C, white label</td><td>#C4106A, lift 2px, shadow deepens</td><td>The one main action on a page</td></tr>
+    <tr><td>Gradient</td><td>135deg #FF2B92 to #FF8433</td><td>#E00072 to #D63501, lift and scale 1.02</td><td>Hero CTA only, one per screen</td></tr>
+    <tr><td>Secondary</td><td>2px pink outline, pink label</td><td>Fills pink, label goes white</td><td>Second action beside a primary</td></tr>
+    <tr><td>Outline</td><td>2px navy outline, navy label</td><td>Fills navy, label goes white</td><td>Low emphasis, dense UI</td></tr>
+  </table>
+  <p>All buttons: 8px radius, uppercase, 1px tracking, Owners Bold, 14px padding block and 24px inline. Press state drops to scale 0.98. Transitions run 300ms ease out.</p>
+
+  <h3>Cards</h3>
+  <p>White fill, 1px #E5E7EB border, 1.5rem radius, 1.5rem padding, no resting shadow. On hover the border shifts to <code>rgba(237,18,140,.2)</code>, a soft pink shadow appears and the card lifts 2px. Radius ladder: <code>xl 1rem</code>, <code>2xl 1.5rem</code>, <code>3xl 2rem</code>.</p>
+
+  <h3>Motion</h3>
+  <p>300ms, ease out, on transform and shadow. Lifts are 2px. Scales are 1.02 up and 0.98 down. Nothing bounces, nothing spins.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">06</span><h2>Iconography</h2></div>
+  <p class="lead">134 line and glyph icons covering apparel, packaging, shipping states and manufacturing equipment. Three color builds ship: black, pink and currentColor.</p>
+  <div class="iconsheet" id="iconsheet"></div>
+  <h3>Rules</h3>
+  <table>
+    <tr><th>Context</th><th>Build</th><th>Color</th></tr>
+    <tr><td>Web and app UI</td><td><code>SVG_CurrentColor</code></td><td>Inherits text color, recolor with CSS</td></tr>
+    <tr><td>Brand marketing, decks, one pagers</td><td><code>SVG_Pink</code></td><td>#ED128C</td></tr>
+    <tr><td>Print, labels, documents</td><td><code>SVG_Black</code></td><td>#000000</td></tr>
+  </table>
+  <p>Sit icons on a 24px box in UI. Pair them with a text label unless the meaning is universal. Do not fill icons with the gradient, do not outline them, do not mix icon sets inside one screen.</p>
+  <div class="callout"><b>Known gap</b>The set was assembled from several sources, so viewBoxes vary across 26, 32, 50 and 64 units and stroke weights are not uniform. Icons look consistent within a group but not always across groups. Standardizing to a single 24px grid with one stroke weight is on the open items list.</div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">07</span><h2>Photography and graphics</h2></div>
+  <p class="lead">Real facility, real product, real hands. Completeful sells operational credibility, so the imagery has to look like a working warehouse, not a stock photo.</p>
+  <h3>Subjects that work</h3>
+  <p>The Lafayette warehouse floor and racking. Machines mid-run: laser engraver, UV printer, embroidery head, DTG. Personalized product close ups where the customer's name is legible. Packed boxes with branded inserts. People working, hands in frame.</p>
+  <h3>Treatment</h3>
+  <p>Natural light, neutral white balance, no heavy filters. Keep pink as an accent inside the frame, never as an overlay across it. Text over photography needs either a dark low detail area or a solid brand color band.</p>
+  <h3>Process graphics</h3>
+  <p>The four step "order to doorstep" infographic set lives in <code>07_Photography_Graphics/</code>. Keep the four step structure: Connect your store, Send us your inventory, We pick, personalize and pack, Fast shipping.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">08</span><h2>Applications</h2></div>
+  <table>
+    <tr><th>Surface</th><th>Asset</th><th>Notes</th></tr>
+    <tr><td>Website header</td><td>Horizontal gradient PNG or SVG</td><td>Around 180px wide, links to home</td></tr>
+    <tr><td>Favicon and app icons</td><td><code>01_Logos/App_Icons/</code></td><td>16, 32, 180 apple touch, 192 and 512 android</td></tr>
+    <tr><td>Social profile</td><td>Emblem gradient 512</td><td>Emblem centered, generous padding, white or black field</td></tr>
+    <tr><td>Open graph and link previews</td><td><code>01_Logos/Social/open_graph_1200x630.jpg</code></td><td>1200 x 630</td></tr>
+    <tr><td>Email signature</td><td>Horizontal pink 400w PNG</td><td>Cap at 180px wide, PNG not SVG for client support</td></tr>
+    <tr><td>Slide decks</td><td>White knockout on dark cover, pink on light interior</td><td>Owners for titles, Inter for body</td></tr>
+    <tr><td>Packing slips and inserts</td><td>Solid pink or black horizontal</td><td>One color print, skip the gradient</td></tr>
+    <tr><td>Packing tape and boxes</td><td>Emblem plus wordmark, one color</td><td>Gradient will not survive flexo, use solid pink</td></tr>
+    <tr><td>Embroidery and engraving</td><td>Emblem, single color, 0.75in minimum</td><td>Simplify, drop the gradient</td></tr>
+    <tr><td>Vehicle and signage</td><td>SVG only</td><td>Never scale a PNG for large format</td></tr>
+  </table>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">09</span><h2>Open items</h2></div>
+  <p class="lead">Honest list of what this kit does not yet have, in priority order.</p>
+  <table>
+    <tr><th>#</th><th>Item</th><th>Why it matters</th></tr>
+    <tr><td>1</td><td>Fix the Owners font import on completeful.com</td><td>Every heading on the live site is currently rendering in a fallback face</td></tr>
+    <tr><td>2</td><td>Confirm the Owners license covers web embedding</td><td>Adobe Fonts covers it under Creative Cloud, a direct MCKL desktop license does not</td></tr>
+    <tr><td>3</td><td>Locate the original vector source for the logo</td><td>The SVGs here were traced from high resolution PNG at 3000 and 8000px, accurate but not the master. An AI or EPS master should replace them if it exists</td></tr>
+    <tr><td>4</td><td>Assign a Pantone for pink</td><td>Needed for consistent packaging, tape, apparel and signage</td></tr>
+    <tr><td>5</td><td>Standardize the icon set to one grid and stroke weight</td><td>Four different viewBox sizes in the current set</td></tr>
+    <tr><td>6</td><td>Reconcile the Canva brand kit with this document</td><td>The Canva kit lists Gotham and SF Pro Display, neither is used in the product. Update Canva to Owners, Inter, Work Sans</td></tr>
+    <tr><td>7</td><td>Stacked and vertical lockup</td><td>No square or stacked version exists for narrow placements</td></tr>
+    <tr><td>8</td><td>Photography library</td><td>Only process infographics and a handful of site images exist today</td></tr>
+  </table>
+</section>
+
+<footer>Completeful Brand Guidelines v1.0 &nbsp;&middot;&nbsp; Generated from the production design tokens &nbsp;&middot;&nbsp; September 2026</footer>
+</div>
+
+<script>
+const icons = ["t_shirt", "box", "cardboard_box", "delivery", "delivery_time", "free_shipping", "fragile", "handle_with_care", "order_shipped", "order_delivered", "packing", "shipping_container", "cargo_ship", "warehouse", "worldwide_delivery", "track_order", "open_box", "empty_box", "big_parcel", "labels", "polo", "shipped", "jacket", "jeans", "socks", "beanie", "baseball_cap", "scarf", "sweater", "shorts", "skirt", "tie", "glasses", "diamond", "3d_printing", "cogwheel", "engineer", "helmet", "welder", "press_machine", "cutting_machine", "drilling_machine", "multimeter", "pulley", "lever", "bending", "coolers", "remote_control"];
+const sheet = document.getElementById('iconsheet');
+icons.forEach(n => { const i = document.createElement('img'); i.src = '../Icons/'+n+'.svg'; i.alt = n; i.onerror = () => i.remove(); sheet.appendChild(i); });
+</script>
+</body>
+</html>
